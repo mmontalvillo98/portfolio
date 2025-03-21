@@ -26,16 +26,23 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/portfolio-angular.git
+   git clone https://github.com/mmontalvillo98/portfolio.git
+   ```
+
 2. Navigate to the project folder:
     ```bash
-    cd portfolio-angular
+    cd portfolio
+    ```
+
 3. Install dependencies:
     ```bash
     npm install
+    ```
+
 4. Run the development server:
     ```bash
     npm start
+    ```
 
 ---
 
