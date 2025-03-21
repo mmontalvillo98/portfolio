@@ -27,3 +27,34 @@ To run this project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/portfolio-angular.git
+2. Navigate to the project folder:
+    ```bash
+    cd portfolio-angular
+3. Install dependencies:
+    ```bash
+    npm install
+4. Run the development server:
+    ```bash
+    npm start
+
+---
+
+## **Usage**
+- Explore the portfolio sections to learn more about my skills and projects.
+- Use the contact form to get in touch with me for collaborations or job opportunities.
+- Responsive design ensures compatibility with mobile, tablet, and desktop devices.
+
+---
+
+## **Future Enhancements**
+- Add more interactivity using animations.
+- Integrate API for dynamic content updates.
+- Include multi-language support.
+
+---
+
+## **Contact**
+Feel free to reach out for any inquiries or opportunities:
+- **Email**: m.montalvillo98@gmail.com
+- **LinkedIn**: https://es.linkedin.com/in/mario-montalvillo-herrezuelo-505b6b242
+- **GitHub**: https://github.com/mmontalvillo98
