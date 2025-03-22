@@ -1,12 +1,20 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { HeaderComponent } from "./components/header/header.component";
+// @ts-ignore
+import AOS from 'aos';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [HeaderComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
-  title = 'portfolio';
+export class AppComponent implements OnInit {
+
+  ngOnInit() {
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1000
+    });
+  }
 }
