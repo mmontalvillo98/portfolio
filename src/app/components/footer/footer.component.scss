@@ -24,24 +24,7 @@
     font-size: 1.5rem;
     font-style: italic;
     text-decoration: none;
-    color: var(--mat-sys-on-background, #e3e2e6);
-}
-
-.social {
-
-    a {
-        color: var(--mat-sys-on-background, #e3e2e6);
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-
-    i {
-        transition: transform .5s;
-    }
-
-    i:hover {
-        transform: scale(2);
-    }
+    color: var(--main-color);
 }
 
 a.underline {
@@ -58,10 +41,27 @@ a.underline:after {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: var(--mat-sys-on-background, #e3e2e6);
+    background: var(--main-color);
     transition: left .5s;
 }
 
 a.underline:hover:after {
     left: 0;
+}
+
+@media screen and (min-width: 578px) {
+
+    .links a,
+    .role {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 6rem;
+    }
+
+    .sub-title,
+    .contact-link {
+        font-size: 2rem;
+    }
 }

@@ -17,7 +17,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
 }
 
@@ -44,7 +44,7 @@
     text-align: right;
     writing-mode: sideways-lr;
     text-orientation: mixed;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 .links a,
@@ -54,7 +54,7 @@
 
 .last-name {
     flex-grow: 1;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 900;
     display: flex;
     justify-content: flex-start;
@@ -129,6 +129,21 @@ a.underline:hover:after {
     display: block;
 }
 
+.return {
+    width: 4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: calc(100% - 100vh);
+    mask-image: linear-gradient(transparent 0%, black 200px);
+    
+    a {
+        position: fixed;
+        bottom: 2rem;
+    }
+
+}
+
 @media screen and (min-width: 578px) {
 
     .links a,
@@ -137,18 +152,18 @@ a.underline:hover:after {
     }
 
     .name {
-        font-size: 8rem;
+        font-size: 6rem;
     }
 
     .last-name {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .links {
-        margin-bottom: 2rem;
+        margin-bottom: 1.75rem;
     }
 
     .role {
-        margin-top: 1.5rem;
+        margin-top: 1.25rem;
     }
 }

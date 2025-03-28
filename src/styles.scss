@@ -4,9 +4,28 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-color);
     color: var(--main-color);
     font-family: var(--font-family);
     height: 100%;
+    position: relative;
+}
+
+.icon-link {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    padding: 1rem;
+
+    i {
+        transition: transform .5s;
+    }
+
+    i:hover {
+        transform: scale(2);
+    }
 }
