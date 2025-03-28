@@ -129,21 +129,6 @@ a.underline:hover:after {
     display: block;
 }
 
-.return {
-    width: 4rem;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: calc(100% - 100vh);
-    mask-image: linear-gradient(transparent 0%, black 200px);
-    
-    a {
-        position: fixed;
-        bottom: 2rem;
-    }
-
-}
-
 @media screen and (min-width: 578px) {
 
     .links a,

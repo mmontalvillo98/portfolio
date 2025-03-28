@@ -3,10 +3,11 @@ import { HeaderComponent } from "./components/header/header.component";
 // @ts-ignore
 import AOS from 'aos';
 import { FooterComponent } from "./components/footer/footer.component";
+import { AsideComponent } from './components/aside/aside.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, FooterComponent],
+  imports: [HeaderComponent, AsideComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
