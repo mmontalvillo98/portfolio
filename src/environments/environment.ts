@@ -6,7 +6,12 @@ import { User } from "../classes/user.class";
 const user: User = {
     name: 'Mario',
     firstName: 'Montalvillo',
-    email: 'm.montalvillo98@gmail.com'
+    email: 'm.montalvillo98@gmail.com',
+    roles: ['Software Developer'],
+    socialLinks: [
+        { name: 'github', url: 'https://github.com/mmontalvillo98' },
+        { name: 'linkedin', url: 'https://es.linkedin.com/in/mario-montalvillo-herrezuelo-505b6b242' }
+    ]
 };
 
 const stilusProject: Project = {

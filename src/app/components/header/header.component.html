@@ -1,7 +1,7 @@
 <header class="main-header">
     <div>
         <nav class="header-row">
-            <div class="name" data-aos="fade-left" data-aos-delay="400">MARIO</div>
+            <div class="name" data-aos="fade-left" data-aos-delay="400">{{name | uppercase}}</div>
             <ul class="links">
                 <li data-aos="fade-down" data-aos-delay="1200">
                     <a href="#contact" class="underline">CONTACT</a>
@@ -16,12 +16,16 @@
         </nav>
         <div class="header-row">
             <div class="role">
-                <span class="line" data-aos="fade-up" data-aos-delay="800">SOFTWARE</span>
-                <span class="line" data-aos="fade-up" data-aos-delay="900">DEVELOPER</span>
+                @for (role of roles; track $index) {
+                <span *ngFor="let word of role.split(' '); let i = index" class="line" data-aos="fade-up"
+                    [attr.data-aos-delay]="800 + i * 100">
+                    {{word | uppercase}}
+                </span>
+                }
             </div>
-            <div class="last-name" data-aos="fade-right" data-aos-delay="400">MONTALVILLO</div>
+            <div class="last-name" data-aos="fade-right" data-aos-delay="400">{{firstName | uppercase}}</div>
             <span class="scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1900" data-aos-offset="100">
-                <div class="arrow-head" (click)="scrollToFragment('experience')"></div>
+                <div class="arrow-head" (click)="scrollToFragment('contact')"></div>
             </span>
         </div>
     </div>
