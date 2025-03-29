@@ -4,10 +4,11 @@ import { HeaderComponent } from "./components/header/header.component";
 import AOS from 'aos';
 import { FooterComponent } from "./components/footer/footer.component";
 import { AsideComponent } from './components/aside/aside.component';
+import { ExperienceSectionComponent } from './components/experience-section/experience-section.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, AsideComponent, FooterComponent],
+  imports: [HeaderComponent, AsideComponent, FooterComponent, ExperienceSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

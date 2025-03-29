@@ -16,6 +16,10 @@ body {
     position: relative;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .icon-link {
     color: var(--main-color);
     font-size: 1.5rem;

@@ -1,0 +1,41 @@
+<section id="experience">
+    <div class="title">
+        EXPERIENCE
+    </div>
+    <div class="timeline" data-aos="fade-up" data-aos-easing="ease">
+        <ul>
+            @for(item of experience; track $index) {
+            <li class="date">
+                <div data-aos="fade-left" data-aos-easing="ease">
+                    {{item.endDate | date: "dd MMM yyyy"}}
+                    <!-- <h3>{{experience.end | date: "dd MMM yyyy"}}</h3> -->
+                </div>
+            </li>
+            <li class="card">
+                <div data-aos="fade-left" data-aos-easing="ease">
+                    <div class="item">
+                        <header>
+                            <img [src]="'/assets/media/imgs/' + item.company + '.png'">
+                            <div>
+                                <div class="company">{{item.company | uppercase}}</div>
+                                <div class="position">{{item.position | titlecase}}</div>
+                            </div>
+                        </header>
+                        <main>
+                            <ul class="technologies">
+                                <li *ngFor="let technology of item.technologies">{{technology}}</li>
+                            </ul>
+                        </main>
+                    </div>
+                </div>
+            </li>
+            <li *ngIf="separatedExperience($index)" class="date">
+                <div data-aos="fade-left" data-aos-easing="ease">
+                    {{item.startDate | date: "dd MMM yyyy"}}
+                </div>
+            </li>
+            }
+        </ul>
+    </div>
+    
+</section>

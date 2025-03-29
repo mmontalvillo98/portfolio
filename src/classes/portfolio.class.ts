@@ -4,10 +4,10 @@ import { User } from "./user.class";
 
 export class Portfolio {
     user: User;
-    experience: Experience[];
-    projects: Project[];
+    experience: Array<Experience>;
+    projects: Array<Project>;
 
-    constructor(user: User, experience: Experience[], projects: Project[]) {
+    constructor(user: User, experience: Array<Experience>, projects: Array<Project>) {
         this.user = user;
         this.experience = experience;
         this.projects = projects;
