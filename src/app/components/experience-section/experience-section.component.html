@@ -1,18 +1,16 @@
 <section id="experience">
-    <div class="title">
-        EXPERIENCE
-    </div>
-    <div class="timeline" data-aos="fade-up" data-aos-easing="ease">
+    <div class="title" data-aos="fade-up" data-aos-delay="400">EXPERIENCE</div>
+    <div class="timeline" data-aos="fade-up" data-aos-delay="800">
         <ul>
             @for(item of experience; track $index) {
             <li class="date">
-                <div data-aos="fade-left" data-aos-easing="ease">
+                <div data-aos="fade-left" data-aos-easing="ease" data-aos-delay="1200">
                     {{item.endDate | date: "dd MMM yyyy"}}
                     <!-- <h3>{{experience.end | date: "dd MMM yyyy"}}</h3> -->
                 </div>
             </li>
             <li class="card">
-                <div data-aos="fade-left" data-aos-easing="ease">
+                <div data-aos="fade-left" data-aos-delay="1600">
                     <div class="item">
                         <header>
                             <img [src]="'/assets/media/imgs/' + item.company + '.png'">
@@ -30,7 +28,7 @@
                 </div>
             </li>
             <li *ngIf="separatedExperience($index)" class="date">
-                <div data-aos="fade-left" data-aos-easing="ease">
+                <div data-aos="fade-left" data-aos-easing="ease" data-aos-delay="1200">
                     {{item.startDate | date: "dd MMM yyyy"}}
                 </div>
             </li>
