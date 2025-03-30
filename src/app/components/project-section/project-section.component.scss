@@ -1,0 +1,53 @@
+.project-list {
+    margin: 0 2rem;
+}
+
+.project {
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.screenshot {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.info {
+    border-top: 2px solid;
+    padding: 1rem;
+}
+
+.name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.description {
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+@media screen and (min-width: 578px) {
+    .project {
+        flex-direction: row-reverse;
+    }
+
+    .info {
+        border-top: 0;
+        border-right: 2px solid;
+        width: 50%;
+    }
+
+    .screenshot {
+        width: 50%;
+    }
+
+    .name {
+        text-align: left;
+    }
+}

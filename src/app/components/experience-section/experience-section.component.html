@@ -1,12 +1,11 @@
-<section id="experience">
-    <div class="title" data-aos="fade-up" data-aos-delay="400">EXPERIENCE</div>
+<section id="experience" class="section">
+    <header class="section-title" data-aos="fade-up" data-aos-delay="400">EXPERIENCE</header>
     <div class="timeline" data-aos="fade-up" data-aos-delay="800">
         <ul>
             @for(item of experience; track $index) {
             <li class="date">
                 <div data-aos="fade-left" data-aos-easing="ease" data-aos-delay="1200">
                     {{item.endDate | date: "dd MMM yyyy"}}
-                    <!-- <h3>{{experience.end | date: "dd MMM yyyy"}}</h3> -->
                 </div>
             </li>
             <li class="card">
@@ -20,9 +19,7 @@
                             </div>
                         </header>
                         <main>
-                            <ul class="technologies">
-                                <li *ngFor="let technology of item.technologies">{{technology}}</li>
-                            </ul>
+                            <app-technology-list [technologies]="item.technologies" />
                         </main>
                     </div>
                 </div>

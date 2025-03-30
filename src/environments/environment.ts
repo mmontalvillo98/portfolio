@@ -26,7 +26,7 @@ const experience: Array<Experience> = [getronicsExperience];
 
 const portfolioProject: Project = {
     name: 'portfolio',
-    description: '',
+    description: 'Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.',
     technologies: ['Angular 19.2.4', 'Animate On Scroll Library (AOS)']
 };
 

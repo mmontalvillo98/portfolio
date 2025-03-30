@@ -24,12 +24,31 @@ ul {
     color: var(--main-color);
     font-size: 1.5rem;
     padding: 1rem;
+    transition: transform .5s;
+}
 
-    i {
-        transition: transform .5s;
-    }
+.icon-link:hover {
+    transform: scale(2);
 
-    i:hover {
-        transform: scale(2);
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.section-title {
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 578px) {
+    .section-title {
+        font-size: 4rem;
     }
 }

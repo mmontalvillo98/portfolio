@@ -5,10 +5,11 @@ import AOS from 'aos';
 import { FooterComponent } from "./components/footer/footer.component";
 import { AsideComponent } from './components/aside/aside.component';
 import { ExperienceSectionComponent } from './components/experience-section/experience-section.component';
+import { ProjectSectionComponent } from "./components/project-section/project-section.component";
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, AsideComponent, FooterComponent, ExperienceSectionComponent],
+  imports: [HeaderComponent, AsideComponent, FooterComponent, ExperienceSectionComponent, ProjectSectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

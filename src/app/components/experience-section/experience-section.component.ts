@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { Experience } from '../../../classes/experience.class';
 import { environment } from '../../../environments/environment';
 import { CommonModule } from '@angular/common';
+import { TechnologyListComponent } from "../technology-list/technology-list.component";
 
 @Component({
     selector: 'app-experience-section',
     templateUrl: 'experience-section.component.html',
     styleUrl: 'experience-section.component.scss',
     standalone: true,
-    imports: [CommonModule]
+    imports: [CommonModule, TechnologyListComponent]
 })
 
 export class ExperienceSectionComponent {

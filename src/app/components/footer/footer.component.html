@@ -1,13 +1,11 @@
-<footer id="contact">
-    <div class="title" data-aos="fade-up" data-aos-delay="400">
-        CONTACT
-    </div>
+<footer id="contact" class="section">
+    <header class="section-title" data-aos="fade-up" data-aos-delay="400">CONTACT</header>
     <div class="sub-title">
         <div data-aos="fade-up" data-aos-delay="800">Interested in working together?</div>
         <div data-aos="fade-up"  data-aos-delay="1000">Send me an email</div>
     </div>
     <a class="contact-link underline" data-aos="fade-up"  data-aos-delay="1200" [href]="'mailto:' + email">{{email}}</a>
-    <div>
+    <div class="links">
         <a *ngFor="let link of socialLinks; let i = index" class="icon-link" [href]="link.url" target="_blank" rel="noopener noreferrer">
             <i data-aos="fade-up" [attr.data-aos-delay]="1200 + (i + 1) * 200" [class]="'fab fa-' + link.name"></i>
         </a>
