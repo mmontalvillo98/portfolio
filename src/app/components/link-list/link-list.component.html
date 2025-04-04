@@ -1,0 +1,5 @@
+<div class="links">
+    <a *ngFor="let link of links" class="icon-link" [href]="link.url" target="_blank" rel="noopener noreferrer">
+        <i [class]="'fab fa-'+link.name"></i>
+    </a>
+</div>

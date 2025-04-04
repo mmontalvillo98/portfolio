@@ -14,5 +14,5 @@ import { ProjectCardComponent } from "../project-card/project-card.component";
 })
 
 export class ProjectSectionComponent {
-    projects: Array<Project> = environment.portfolio.projects;
+    projects: Array<Project> = environment.projects;
 }

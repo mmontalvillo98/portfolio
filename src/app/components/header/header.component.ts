@@ -11,9 +11,9 @@ import { environment } from '../../../environments/environment';
 })
 
 export class HeaderComponent {
-    name: string = environment.portfolio.user.name;
-    firstName: string = environment.portfolio.user.firstName;
-    roles: Array<string> = environment.portfolio.user.roles;
+    name: string = environment.user.name;
+    firstName: string = environment.user.firstName;
+    roles: Array<string> = environment.user.roles;
 
     constructor(private viewportScroller: ViewportScroller) { }
 

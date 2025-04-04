@@ -1,5 +1,5 @@
 <div class="project">
-    <img class="screenshot" src="/assets/media/imgs/portfolio.png">
+    <img class="screenshot" [src]="project.image">
     <div class="info">
         <header class="card-title">{{project.name | uppercase}}</header>
         <main>
@@ -7,11 +7,7 @@
             <app-technology-list [technologies]="project.technologies" />
         </main>
         <footer>
-            <div class="links">
-                <a *ngIf="github" class="icon-link" [href]="github.url + '/' + project.name" target="_blank" rel="noopener noreferrer">
-                    <i [class]="'fab fa-github'"></i>
-                </a>
-            </div>
+            <app-link-list [links]="project.links" />
         </footer>
     </div>
 </div>

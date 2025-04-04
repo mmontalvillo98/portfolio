@@ -13,7 +13,7 @@ import { ExperienceCardComponent } from "../experience-card/experience-card.comp
 })
 
 export class ExperienceSectionComponent {
-    experience: Array<Experience> = environment.portfolio.experience;
+    experience: Array<Experience> = environment.experience;
 
     separatedExperience(i: number): boolean {
         return this.experience.length <= i + 1 || this.experience[i].startDate.getTime() !== this.experience[i + 1].endDate?.getTime();

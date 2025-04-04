@@ -1,8 +1,10 @@
 <div class="item">
     <header>
-        <img [src]="'/assets/media/imgs/' + experience.company + '.jpeg'">
+        <a [href]="experience.company.url" target="_blank" rel="noopener noreferrer">
+            <img [src]="experience.company.logo">
+        </a>
         <div>
-            <div class="card-title">{{experience.company | uppercase}}</div>
+            <div class="card-title">{{experience.company.name | uppercase}}</div>
             <div class="card-subtitle">{{experience.position | titlecase}}</div>
         </div>
     </header>
