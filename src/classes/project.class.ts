@@ -16,7 +16,7 @@ export class Project {
     }
 }
 
-export const portfolioProject: Project = {
+export const portfolio: Project = {
     name: 'portfolio',
     description: 'Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.',
     image: "/assets/media/imgs/portfolio.png",
