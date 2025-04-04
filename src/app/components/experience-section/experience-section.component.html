@@ -10,18 +10,7 @@
             </li>
             <li class="card">
                 <div data-aos="fade-left" data-aos-delay="1600">
-                    <div class="item">
-                        <header>
-                            <img [src]="'/assets/media/imgs/' + item.company + '.png'">
-                            <div>
-                                <div class="company">{{item.company | uppercase}}</div>
-                                <div class="position">{{item.position | titlecase}}</div>
-                            </div>
-                        </header>
-                        <main>
-                            <app-technology-list [technologies]="item.technologies" />
-                        </main>
-                    </div>
+                    <app-experience-card [experience]="item" />
                 </div>
             </li>
             <li *ngIf="separatedExperience($index)" class="date">

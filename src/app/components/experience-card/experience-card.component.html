@@ -1,0 +1,12 @@
+<div class="item">
+    <header>
+        <img [src]="'/assets/media/imgs/' + experience.company + '.jpeg'">
+        <div>
+            <div class="card-title">{{experience.company | uppercase}}</div>
+            <div class="card-subtitle">{{experience.position | titlecase}}</div>
+        </div>
+    </header>
+    <main>
+        <app-technology-list [technologies]="experience.technologies" />
+    </main>
+</div>

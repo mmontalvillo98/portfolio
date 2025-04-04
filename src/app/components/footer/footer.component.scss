@@ -1,14 +1,11 @@
-.sub-title {
-    opacity: 0.5;
-    font-size: 1.5rem;
+.card-subtitle {
     text-align: center;
 }
 
 .contact-link {
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: var(--medium-size);
     font-style: italic;
-    text-decoration: none;
     color: var(--main-color);
 }
 
@@ -16,7 +13,6 @@ a.underline {
     position: relative;
     overflow: hidden;
     display: inline-flex;
-    text-decoration: none;
 }
 
 a.underline:after {
@@ -32,25 +28,4 @@ a.underline:after {
 
 a.underline:hover:after {
     left: 0;
-}
-
-.links {
-    display: flex;
-}
-
-@media screen and (min-width: 578px) {
-
-    .links a,
-    .role {
-        font-size: 2rem;
-    }
-
-    .title {
-        font-size: 6rem;
-    }
-
-    .sub-title,
-    .contact-link {
-        font-size: 2rem;
-    }
 }

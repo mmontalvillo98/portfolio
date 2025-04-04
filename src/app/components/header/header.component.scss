@@ -22,11 +22,6 @@
         writing-mode: sideways-lr;
     }
 
-    a {
-        text-decoration: none;
-        color: var(--main-color);
-    }
-
 }
 
 .role {
@@ -39,7 +34,8 @@
 
 .links a,
 .role {
-    font-size: 1.5rem;
+    font-size: var(--medium-size);
+    color: var(--secondary-color);
 }
 
 .last-name {
@@ -100,13 +96,13 @@ a.underline {
 
 a.underline:after {
     content: "";
-    background: var(--main-color);
+    background: var(--secondary-color);
     bottom: -100%;
     display: block;
     height: 100%;
     position: absolute;
     right: 0;
-    transition: bottom 0.5s;
+    transition: bottom 1s;
     width: 2px;
 }
 
@@ -120,11 +116,6 @@ a.underline:hover:after {
 }
 
 @media screen and (min-width: 578px) {
-
-    .links a,
-    .role {
-        font-size: 2rem;
-    }
 
     .name {
         font-size: 6rem;

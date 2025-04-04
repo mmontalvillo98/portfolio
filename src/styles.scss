@@ -16,20 +16,23 @@ body {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
     list-style-type: none;
 }
 
 .icon-link {
     color: var(--main-color);
-    font-size: 1.5rem;
+    font-size: var(--medium-size);
     padding: 1rem;
     transition: transform .5s;
 }
 
 .icon-link:hover {
     transform: scale(2);
-
 }
 
 .section {
@@ -43,12 +46,20 @@ ul {
 
 .section-title {
     font-style: italic;
-    font-size: 3rem;
+    font-size: var(--x-large-size);
     font-weight: 900;
 }
 
-@media screen and (min-width: 578px) {
-    .section-title {
-        font-size: 4rem;
-    }
+.links {
+    display: flex;
+}
+
+.card-title {
+    font-size: var(--large-size);
+    font-weight: 700;
+}
+
+.card-subtitle {
+    color: var(--secondary-color);
+    font-size: var(--medium-size);
 }

@@ -1,0 +1,25 @@
+.item {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        &>div {
+            flex: 1;
+        }
+    }
+
+    main {
+        margin: 1rem 0;
+    }
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+    width: calc(var(--medium-size) + var(--large-size));
+    height: calc(var(--medium-size) + var(--large-size));
+    border-radius: 50%;
+}

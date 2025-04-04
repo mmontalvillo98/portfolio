@@ -1,17 +1,6 @@
 <section class="projects" class="section">
     <header class="section-title">PROJECTS</header>
     <div class="project-list">
-        <div *ngFor="let project of projects" class="project">
-            <img class="screenshot" src="/assets/media/imgs/portfolio.png">
-            <div class="info">
-                <header class="name">{{project.name | uppercase}}</header>
-                <main>
-                    <div class="description">{{project.description}}</div>
-                </main>
-                <footer>
-                    <app-technology-list [technologies]="project.technologies" />
-                </footer>
-            </div>
-        </div>
+        <app-project-card *ngFor="let project of projects" [project]="project" />
     </div>
 </section>
