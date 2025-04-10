@@ -1,4 +1,4 @@
-import { github, linkedin, SocialLink } from "./social-link.class";
+import { SocialLink } from "./social-link.class";
 
 export class User {
     name: string;
@@ -15,11 +15,3 @@ export class User {
         this.socialLinks = socialLinks;
     }
 }
-
-export const user: User = {
-    name: 'Mario',
-    firstName: 'Montalvillo',
-    email: 'm.montalvillo98@gmail.com',
-    roles: ['Software Developer'],
-    socialLinks: [github, linkedin]
-};

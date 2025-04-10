@@ -10,9 +10,3 @@ export class Company {
     }
 
 }
-
-export const getronics: Company = {
-    name: 'getronics',
-    logo: '/assets/media/imgs/getronics.jpeg',
-    url: 'https://www.getronics.com'
-};

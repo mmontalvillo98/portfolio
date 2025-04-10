@@ -1,4 +1,4 @@
-import { Company, getronics } from "./company.class";
+import { Company } from "./company.class";
 
 export class Experience {
     company: Company;
@@ -15,11 +15,3 @@ export class Experience {
         this.technologies = technologies;
     }
 }
-
-export const getronicsExperience: Experience = {
-    company: getronics,
-    position: 'software developer',
-    startDate: new Date("2022-03-19"),
-    endDate: new Date(),
-    technologies: ['SpringBoot', 'SpringBatch', 'OpenApi', 'Angular', 'OracleSQL']
-};

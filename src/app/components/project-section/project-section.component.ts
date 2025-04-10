@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Project } from '../../../classes/project.class';
 import { environment } from '../../../environments/environment';
 import { CommonModule } from '@angular/common';
-import { SocialLink } from '../../../classes/social-link.class';
 import { ProjectCardComponent } from "../project-card/project-card.component";
 
 @Component({
