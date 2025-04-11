@@ -32,7 +32,7 @@ export const environment = {
                 "/assets/media/imgs/portfolio00.png",
                 "/assets/media/imgs/portfolio00.png"
             ],
-            technologies: ['Angular 19.2.4', 'Animate On Scroll Library (AOS)'],
+            technologies: ['Angular', 'Angular material', 'Animate On Scroll Library (AOS)'],
             links: [
                 { name: 'github', url: 'https://github.com/mmontalvillo98/portfolio' }
             ]
