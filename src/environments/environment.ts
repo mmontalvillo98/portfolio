@@ -26,7 +26,12 @@ export const environment = {
         {
             name: 'portfolio',
             description: 'Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.',
-            image: "/assets/media/imgs/portfolio.png",
+            images: [
+                "/assets/media/imgs/portfolio00.png",
+                "/assets/media/imgs/portfolio01.png",
+                "/assets/media/imgs/portfolio00.png",
+                "/assets/media/imgs/portfolio00.png"
+            ],
             technologies: ['Angular 19.2.4', 'Animate On Scroll Library (AOS)'],
             links: [
                 { name: 'github', url: 'https://github.com/mmontalvillo98/portfolio' }

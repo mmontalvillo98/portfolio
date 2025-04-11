@@ -4,16 +4,9 @@
     max-width: var(--card-max-size);
 }
 
-.screenshot {
-    align-self: flex-start;
-    margin: 0 auto;
+.screenshots {
     padding: 1rem;
-    width: 100%;
-    object-fit: fit;
-    border: 2px solid;
-    max-height: 300px;
-    object-fit: contain;
-}   
+}
 
 .info {
     padding: 1rem;
@@ -38,10 +31,8 @@
         width: 50%;
     }
 
-    .screenshot {
+    .screenshots {
         align-self: center;
-        max-height: auto;
-        max-width: calc(var(--card-max-size) / 2);
         width: 50%;
     }
 

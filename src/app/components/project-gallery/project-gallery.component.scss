@@ -1,0 +1,22 @@
+.tile {
+    box-sizing: content-box;
+    border: 2px solid var(--main-color);
+}
+
+.move {
+    z-index: 1;
+    position: absolute;
+    right: 1rem;
+    opacity: 0.25;
+
+    &:first-child {
+        left: 1rem;
+    }
+
+}
+
+.image {
+    height: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+}

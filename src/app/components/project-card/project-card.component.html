@@ -1,5 +1,7 @@
 <div class="project">
-    <img class="screenshot" [src]="project.image">
+    <div class="screenshots">
+        <app-project-gallery [project]="project" />
+    </div>
     <div class="info">
         <header class="card-title">{{project.name | uppercase}}</header>
         <main>
