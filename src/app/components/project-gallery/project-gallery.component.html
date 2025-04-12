@@ -1,20 +1,20 @@
 <mat-grid-list class="gallery" [cols]="cols" rowHeight="1:1" gutterSize="1rem">
-    <mat-grid-tile class="tile" colspan="3" rowspan="3">
+    <mat-grid-tile class="tile" colspan="3" rowspan="3" >
         <button mat-fab class="move" (click)="moveLeft()">
             <mat-icon>chevron_left</mat-icon>
         </button>
-        <img class="image" [src]="images[0]">
+        <img class="image" [src]="images[0]" (click)="openImage(0)">
         <button mat-fab class="move" (click)="moveRight()">
             <mat-icon>chevron_right</mat-icon>
         </button>
     </mat-grid-tile>
     <mat-grid-tile class="tile">
-        <img class="image" [src]="images[1]">
+        <img class="image" [src]="images[1]" (click)="openImage(1)">
     </mat-grid-tile>
     <mat-grid-tile class="tile">
-        <img class="image" [src]="images[2]">
+        <img class="image" [src]="images[2]" (click)="openImage(2)">
     </mat-grid-tile>
     <mat-grid-tile class="tile">
-        <img class="image" [src]="images[3]">
+        <img class="image" [src]="images[3]" (click)="openImage(3)">
     </mat-grid-tile>
 </mat-grid-list>

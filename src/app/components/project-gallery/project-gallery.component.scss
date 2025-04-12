@@ -12,10 +12,10 @@
     &:first-child {
         left: 1rem;
     }
-
 }
 
 .image {
+    cursor: pointer;
     height: 100%;
     margin: 0 auto;
     object-fit: contain;
