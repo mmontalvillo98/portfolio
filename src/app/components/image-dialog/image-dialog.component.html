@@ -10,3 +10,16 @@
         <mat-icon>chevron_right</mat-icon>
     </button>
 </mat-dialog-content>
+<mat-dialog-actions class="actions">
+    <mat-grid-list [cols]="images().length - 1" rowHeight="1:1" gutterSize="1rem">
+        <mat-grid-tile>
+            <img class="secondary" [src]="images()[1]" (click)="show(1)">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <img class="secondary" [src]="images()[2]" (click)="show(2)">
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <img class="secondary" [src]="images()[3]" (click)="show(3)">
+        </mat-grid-tile>
+    </mat-grid-list>
+</mat-dialog-actions>

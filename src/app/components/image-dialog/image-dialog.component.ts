@@ -1,13 +1,14 @@
 import { Component, inject, model } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 
 @Component({
     templateUrl: 'image-dialog.component.html',
     styleUrl: './image-dialog.component.scss',
     standalone: true,
-    imports: [MatButtonModule, MatDialogModule, MatIconModule]
+    imports: [MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule]
 })
 
 export class ImageDialogComponent {
@@ -20,16 +21,22 @@ export class ImageDialogComponent {
     }
 
     moveRight() {
+        const first = this.images().shift();
+        if (first) {
+            this.images().push(first);
+        }
+    }
+
+    moveLeft() {
         const last = this.images().pop();
         if (last) {
             this.images().unshift(last);
         }
     }
 
-    moveLeft() {
-        const first = this.images().shift();
-        if (first) {
-            this.images().push(first);
+    show(index: number) {
+        for (let i = 0; i < index; i++) {
+            this.moveRight();
         }
     }
 

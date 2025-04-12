@@ -36,21 +36,21 @@ export class ProjectGalleryComponent {
     }
 
     moveRight() {
-        const ultima = this.images.pop();
-        if (ultima) {
-            this.images.unshift(ultima);
+        const first = this.images.shift();
+        if (first) {
+            this.images.push(first);
         }
     }
 
     moveLeft() {
-        const primera = this.images.shift();
-        if (primera) {
-            this.images.push(primera);
+        const last = this.images.pop();
+        if (last) {
+            this.images.unshift(last);
         }
     }
 
     openImage(imgIndex: number) {
-        // Create duplciate of the images starting with the selected one
+        // Create duplicate of the images starting with the selected one
         let images = [];
         for(let i = 0; i < this.images.length; i++) {
             if (imgIndex > this.images.length - 1) {
@@ -59,12 +59,8 @@ export class ProjectGalleryComponent {
             images.push(this.images[imgIndex++]);
         }
         // Open the dialog with the images
-        const dialogRef = this.dialog.open(ImageDialogComponent, {
+        this.dialog.open(ImageDialogComponent, {
             data: { images },
-        });
-        // On close, update the images in the component
-        dialogRef.afterClosed().subscribe(result => {
-            this.images = result;
         });
     }
 
