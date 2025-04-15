@@ -5,21 +5,6 @@
     top: 2rem;
 }
 
-.move {
-    z-index: 1;
-    position: absolute;
-    opacity: 0.25;
-    // 56 px = the size of the buttons
-    top: calc(50% - 56px / 2);
-    left: 2rem;
-
-    &:last-child {
-        left: auto;
-        right: 2rem;
-    }
-
-}
-
 img {
     max-width: 100%;
     max-height: 100%;

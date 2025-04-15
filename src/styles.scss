@@ -24,13 +24,15 @@ ul {
     list-style-type: none;
 }
 
-.icon-link {
+.icon-link,
+.icon-button {
     color: var(--main-color);
     font-size: var(--medium-size);
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
     padding: 1rem;
-}
-
-.icon-hover {
     transition: transform .5s;
 
     &:hover {
@@ -61,4 +63,18 @@ ul {
 .card-subtitle {
     color: var(--secondary-color);
     font-size: var(--medium-size);
+}
+
+.move {
+    z-index: 1;
+    position: absolute;
+    opacity: 0.25;
+    // 3 rem = size of button
+    top: calc(50% - 3rem / 2);
+    left: 1rem;
+
+    &:last-child {
+        left: auto;
+        right: 1rem;
+    }
 }

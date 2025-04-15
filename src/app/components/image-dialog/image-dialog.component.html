@@ -1,13 +1,13 @@
 <mat-dialog-content>
-    <button mat-icon-button aria-label="close" class="close" (click)="close()">
-        <mat-icon fontIcon="close"></mat-icon>
+    <button class="close icon-button" (click)="close()">
+        <i class="fa-solid fa-close"></i>
     </button>
-    <button mat-fab class="move" (click)="moveLeft()">
-        <mat-icon>chevron_left</mat-icon>
+    <button class="move icon-button" (click)="moveLeft()">
+        <i class="fa-solid fa-chevron-left"></i>
     </button>
     <img [src]="images()[0]">
-    <button mat-fab class="move" (click)="moveRight()">
-        <mat-icon>chevron_right</mat-icon>
+    <button class="move icon-button" (click)="moveRight()">
+        <i class="fa-solid fa-chevron-right"></i>
     </button>
 </mat-dialog-content>
 <mat-dialog-actions class="actions">
