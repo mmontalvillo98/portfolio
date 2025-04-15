@@ -1,8 +1,8 @@
 <footer id="contact" class="section">
-    <header class="section-title" data-aos="fade-up" data-aos-delay="400">CONTACT</header>
+    <header class="section-title" data-aos="fade-up" data-aos-delay="400">{{'contact' | translate}}</header>
     <div class="card-subtitle">
-        <div data-aos="fade-up" data-aos-delay="800">Interested in working together?</div>
-        <div data-aos="fade-up"  data-aos-delay="1000">Send me an email</div>
+        <div data-aos="fade-up" data-aos-delay="800">{{'footer-interested' | translate}}</div>
+        <div data-aos="fade-up"  data-aos-delay="1000">{{'footer-send-email' | translate}}</div>
     </div>
     <a class="contact-link underline" data-aos="fade-up"  data-aos-delay="1200" [href]="'mailto:' + email">{{email}}</a>
     <app-link-list [links]="links" />

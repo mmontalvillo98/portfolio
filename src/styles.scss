@@ -28,11 +28,14 @@ ul {
     color: var(--main-color);
     font-size: var(--medium-size);
     padding: 1rem;
-    transition: transform .5s;
 }
 
-.icon-link:hover {
-    transform: scale(2);
+.icon-hover {
+    transition: transform .5s;
+
+    &:hover {
+        transform: scale(2);
+    }
 }
 
 .section {

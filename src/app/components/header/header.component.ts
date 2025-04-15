@@ -1,13 +1,14 @@
 import { CommonModule, ViewportScroller } from '@angular/common';
 import { Component } from '@angular/core';
 import { environment } from '../../../environments/environment';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-header',
     templateUrl: 'header.component.html',
     styleUrl: 'header.component.scss',
     standalone: true,
-    imports: [CommonModule]
+    imports: [CommonModule, TranslateModule]
 })
 
 export class HeaderComponent {

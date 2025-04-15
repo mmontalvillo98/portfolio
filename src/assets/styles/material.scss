@@ -19,4 +19,13 @@ html {
     content-padding: 0,
     container-color: var(--background-color)
   ));
+
+
+  .switch-nested-menu-arrows button[mat-menu-item].mat-menu-item-submenu-trigger::after {
+    border-width: 5px 5px 5px 0;
+    border-color: transparent currentColor transparent transparent;
+    right: 0;
+    left: 16px;
+  }
+
 }

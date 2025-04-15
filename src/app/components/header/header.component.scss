@@ -29,7 +29,7 @@
     text-align: right;
     writing-mode: sideways-lr;
     text-orientation: mixed;
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
 }
 
 .links a,
@@ -92,6 +92,7 @@ a.underline {
     display: inline-flex;
     overflow: hidden;
     position: relative;
+    padding-top: 2px;
 }
 
 a.underline:after {
@@ -102,7 +103,7 @@ a.underline:after {
     height: 100%;
     position: absolute;
     right: 0;
-    transition: bottom 1s;
+    transition: bottom 0.5s;
     width: 2px;
 }
 
@@ -127,9 +128,12 @@ a.underline:hover:after {
 
     .links {
         margin-bottom: 1.75rem;
+        a {
+            padding-top: 4px
+        }
     }
 
     .role {
-        margin-top: 1.25rem;
+        margin-top: 0.75rem;
     }
 }

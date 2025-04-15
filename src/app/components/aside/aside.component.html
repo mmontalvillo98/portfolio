@@ -1,3 +1,21 @@
-<aside class="return">
-    <a href="#" class="icon-link"><i class="fa-solid fa-arrow-up"></i></a>
+<aside class="aside">
+    <div class="language">
+        <button class="icon-button icon-hover" [matMenuTriggerFor]="menu">
+            <i class="fa-solid fa-gear"></i>
+        </button>
+    </div>
+    <div class="return">
+        <a href="#" class="icon-link icon-hover">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
 </aside>
+
+<mat-menu #menu="matMenu" xPosition="before" yPosition="above">
+    <button mat-menu-item [matMenuTriggerFor]="menuLanguages">Language</button>
+</mat-menu>
+<mat-menu #menuLanguages="matMenu" xPosition="before">
+    <button *ngFor="let language of languages" mat-menu-item (click)="onLanguageSelected(language)">
+        {{language | translate}}
+    </button>
+</mat-menu>

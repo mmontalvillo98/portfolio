@@ -3,13 +3,14 @@ import { Experience } from '../../../classes/experience.class';
 import { environment } from '../../../environments/environment';
 import { CommonModule } from '@angular/common';
 import { ExperienceCardComponent } from "../experience-card/experience-card.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-experience-section',
     templateUrl: 'experience-section.component.html',
     styleUrl: 'experience-section.component.scss',
     standalone: true,
-    imports: [CommonModule, ExperienceCardComponent]
+    imports: [CommonModule, ExperienceCardComponent, TranslateModule]
 })
 
 export class ExperienceSectionComponent {
