@@ -71,10 +71,10 @@ ul {
     opacity: 0.25;
     // 3 rem = size of button
     top: calc(50% - 3rem / 2);
-    left: 1rem;
+    left: 0;
 
     &:last-child {
         left: auto;
-        right: 1rem;
+        right: 0;
     }
 }
