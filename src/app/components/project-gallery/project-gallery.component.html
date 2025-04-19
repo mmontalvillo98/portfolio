@@ -1,11 +1,11 @@
 <mat-grid-list class="gallery" [cols]="cols" rowHeight="1:1" gutterSize="1rem">
     <mat-grid-tile class="tile" colspan="3" rowspan="3" >
         <button class="move icon-button" (click)="moveLeft()">
-            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-left icon-hover"></i>
         </button>
         <img class="image" [src]="images[0]" (click)="openImage(0)">
         <button class="move icon-button" (click)="moveRight()">
-            <i class="fa-solid fa-chevron-right"></i>
+            <i class="fa-solid fa-chevron-right icon-hover"></i>
         </button>
     </mat-grid-tile>
     <mat-grid-tile class="tile">
