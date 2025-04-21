@@ -16,21 +16,22 @@ export const environment = {
                 logo: '/assets/media/imgs/getronics.jpeg',
                 url: 'https://www.getronics.com'
             },
-            position: 'software developer',
+            position: 'Software Developer',
+            description: 'e-s-getronics-experience',
             startDate: new Date("2022-03-19"),
             endDate: new Date(),
-            technologies: ['SpringBoot', 'SpringBatch', 'OpenApi', 'Angular', 'OracleSQL']
+            technologies: ['Angular', 'Angular Material', 'JasperReport', 'Java Microservicios', 'Maven', 'OpenAPI', 'Oracle SQL', 'Spring Batch', 'Spring Boot', 'Swagger']
         }
     ],
     projects: [
         {
             name: 'portfolio',
-            description: 'Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.',
+            description: 'p-s-portfolio',
             images: [
                 "/assets/media/imgs/portfolio00.png",
                 "/assets/media/imgs/portfolio01.png",
-                "/assets/media/imgs/portfolio00.png",
-                "/assets/media/imgs/portfolio00.png"
+                "/assets/media/imgs/portfolio02.png",
+                "/assets/media/imgs/portfolio03.png"
             ],
             technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)'],
             links: [

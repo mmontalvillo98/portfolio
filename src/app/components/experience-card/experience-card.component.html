@@ -6,9 +6,12 @@
         <div>
             <div class="card-title">{{experience.company.name | uppercase}}</div>
             <div class="card-subtitle">{{experience.position | titlecase}}</div>
-        </div>
+        </div>        
     </header>
     <main>
-        <app-technology-list [technologies]="experience.technologies" />
+        <p>{{ experience.description | translate }}</p>
     </main>
+    <footer>
+        <app-technology-list [technologies]="experience.technologies" />
+    </footer>
 </div>

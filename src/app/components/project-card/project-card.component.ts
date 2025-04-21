@@ -4,13 +4,14 @@ import { CommonModule } from '@angular/common';
 import { TechnologyListComponent } from '../technology-list/technology-list.component';
 import { LinkListComponent } from "../link-list/link-list.component";
 import { ProjectGalleryComponent } from "../project-gallery/project-gallery.component";
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-project-card',
     templateUrl: 'project-card.component.html',
     styleUrl: 'project-card.component.scss',
     standalone: true,
-    imports: [CommonModule, TechnologyListComponent, LinkListComponent, ProjectGalleryComponent]
+    imports: [CommonModule, TechnologyListComponent, LinkListComponent, ProjectGalleryComponent, TranslateModule]
 })
 
 export class ProjectCardComponent {

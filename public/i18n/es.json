@@ -3,9 +3,13 @@
     "es": "Español",
 
     "contact": "CONTACTO",
-    "projects": "PROJECTOS",
+    "projects": "PROYECTOS",
     "experience": "EXPERIENCIA",
 
-    "footer-interested": "¿Te interesa trabajar conmigo?",
-    "footer-send-email": "Envíame un correo electrónico"
+    "e-s-getronics-experience": "Full-stack developer en el equipo de Stilus, sistema integrado para la gestión de las enseñanzas escolares en Castilla y León. Diseñado con una arquitectura basada en microservicios, este sistema está compuesto por un conjunto de APIs REST desarrolladas en Spring Boot y proyectos frontend implementados en Angular.",
+
+    "p-s-portfolio": "Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.",
+
+    "f-interested": "¿Te interesa trabajar conmigo?",
+    "f-send-email": "Envíame un correo electrónico"
 }
