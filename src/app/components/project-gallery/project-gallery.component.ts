@@ -60,7 +60,7 @@ export class ProjectGalleryComponent {
         }
         // Open the dialog with the images
         this.dialog.open(ImageDialogComponent, {
-            data: { images },
+            data: { images }
         });
     }
 

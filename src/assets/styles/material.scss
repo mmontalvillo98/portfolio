@@ -16,16 +16,9 @@ html {
 :root {
   @include mat.dialog-overrides((
     container-shape: rectangle,
-    content-padding: 0,
-    container-color: var(--background-color)
+    content-padding: 1rem,
+    container-color: var(--background-color),
+    with-actions-content-padding: 1rem,
+    actions-padding: 0 1rem 1rem 1rem
   ));
-
-
-  .switch-nested-menu-arrows button[mat-menu-item].mat-menu-item-submenu-trigger::after {
-    border-width: 5px 5px 5px 0;
-    border-color: transparent currentColor transparent transparent;
-    right: 0;
-    left: 16px;
-  }
-
 }
