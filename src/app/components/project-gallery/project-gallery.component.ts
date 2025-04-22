@@ -16,11 +16,14 @@ import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
 })
 
 export class ProjectGalleryComponent {
+    isSmallScreen: boolean = true;
     images: string[] = [];
+    projectName: string = ''; 
+
     @Input() set project(project: Project) {
+        this.projectName = project.name;
         this.images = [...project.images];
     }
-    isSmallScreen: boolean = true;
 
     constructor(
         private breakpointObserver: BreakpointObserver,
@@ -60,7 +63,7 @@ export class ProjectGalleryComponent {
         }
         // Open the dialog with the images
         this.dialog.open(ImageDialogComponent, {
-            data: { images }
+            data: { title: this.projectName, images }
         });
     }
 

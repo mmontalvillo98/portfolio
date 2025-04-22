@@ -1,7 +1,12 @@
-<mat-dialog-content class="main-image">
-    <button class="close icon-button" (click)="close()">
+<header mat-dialog-title class="card-header">
+    <div class="card-title">
+        {{data.title | uppercase}}
+    </div>
+    <button class="icon-button" (click)="close()">
         <i class="fa-solid fa-close icon-hover"></i>
     </button>
+</header>
+<mat-dialog-content class="main-image">
     <button class="move icon-button" (click)="moveLeft()">
         <i class="fa-solid fa-chevron-left icon-hover"></i>
     </button>

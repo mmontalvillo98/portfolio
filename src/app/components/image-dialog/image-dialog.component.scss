@@ -1,8 +1,10 @@
-.close {
-    z-index: 1;
-    position: absolute;
-    right: 2rem;
-    top: 2rem;
+.card-header {
+    display: flex;
+    align-items: center;
+
+    .card-title {
+        flex: 1;
+    }
 }
 
 .main-image {
