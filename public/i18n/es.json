@@ -6,9 +6,11 @@
     "projects": "PROYECTOS",
     "experience": "EXPERIENCIA",
 
-    "e-s-getronics-experience": "Full-stack developer en el equipo de Stilus, sistema integrado para la gestión de las enseñanzas escolares en Castilla y León. Diseñado con una arquitectura basada en microservicios, este sistema está compuesto por un conjunto de APIs REST desarrolladas en Spring Boot y proyectos frontend implementados en Angular.",
+    "a-m-language": "Idioma",
 
-    "p-s-portfolio": "Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.",
+    "e-s-getronics-experience": "Participé activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento. Aunque mi principal enfoque fue el diseño y desarrollo de sistemas con arquitectura de microservicios, implementando APIs REST con Spring Boot y desarrollando interfaces en Angular, también contribuí en otras etapas del proceso, asegurando la integración y funcionalidad completa del sistema.",
+
+    "p-s-portfolio": "Portfolio personal construido con Angular. Está diseñado para presentar mi experiencia profesional, proyectos personales y detalles de contacto de una manera moderna e interactiva. El portfolio proporciona a empleadores potenciales y colaboradores una visión general de mis habilidades y logros.",
 
     "f-interested": "¿Te interesa trabajar conmigo?",
     "f-send-email": "Envíame un correo electrónico"

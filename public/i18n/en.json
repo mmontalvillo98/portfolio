@@ -6,7 +6,9 @@
     "projects": "PROJECTS",
     "experience": "EXPERIENCE",
 
-    "e-s-getronics-experience": "Full-stack developer on the Stilus team, an integrated system for managing school education in Castilla y León. Designed with a microservices-based architecture, this system consists of a set of REST APIs developed in Spring Boot and frontend projects implemented in Angular.",
+    "a-m-language": "Language",
+
+    "e-s-getronics-experience": "I actively participated in the entire development lifecycle, from planning to implementation and maintenance. Although my main focus was on the design and development of systems with a microservices architecture, implementing REST APIs with Spring Boot and developing interfaces in Angular, I also contributed to other stages of the process, ensuring the integration and full functionality of the system.",
 
     "p-s-portfolio": "Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.",
 

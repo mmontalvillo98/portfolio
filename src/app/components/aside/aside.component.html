@@ -12,7 +12,7 @@
 </aside>
 
 <mat-menu #menu="matMenu" xPosition="before" yPosition="above">
-    <button mat-menu-item [matMenuTriggerFor]="menuLanguages">Language</button>
+    <button mat-menu-item [matMenuTriggerFor]="menuLanguages">{{ 'a-m-language' | translate }}</button>
 </mat-menu>
 <mat-menu #menuLanguages="matMenu" xPosition="before">
     <button *ngFor="let language of languages" mat-menu-item (click)="onLanguageSelected(language)">
