@@ -6,13 +6,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     selector: 'app-project-gallery',
     templateUrl: 'project-gallery.component.html',
     styleUrl: 'project-gallery.component.scss',
     standalone: true,
-    imports: [MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule]
+    imports: [MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule, TranslateModule]
 })
 
 export class ProjectGalleryComponent {
@@ -38,14 +39,14 @@ export class ProjectGalleryComponent {
             });
     }
 
-    moveRight() {
+    next() {
         const first = this.images.shift();
         if (first) {
             this.images.push(first);
         }
     }
 
-    moveLeft() {
+    previous() {
         const last = this.images.pop();
         if (last) {
             this.images.unshift(last);

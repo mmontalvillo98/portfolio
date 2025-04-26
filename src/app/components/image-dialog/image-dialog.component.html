@@ -2,29 +2,29 @@
     <div class="card-title">
         {{data.title | uppercase}}
     </div>
-    <button class="icon-button" (click)="close()">
+    <button class="icon-button" (click)="close()" [attr.aria-label]="'i-d-close' | translate">
         <i class="fa-solid fa-close icon-hover"></i>
     </button>
 </header>
 <mat-dialog-content class="main-image">
-    <button class="move icon-button" (click)="moveLeft()">
+    <button class="move icon-button" (click)="previous()" [attr.aria-label]="'g-previous' | translate">
         <i class="fa-solid fa-chevron-left icon-hover"></i>
     </button>
-    <img [src]="images()[0]">
-    <button class="move icon-button" (click)="moveRight()">
+    <img [src]="images()[0]" [attr.arial-label]="'a-first' | translate">
+    <button class="move icon-button" (click)="next()" [attr.aria-label]="'g-next' | translate">
         <i class="fa-solid fa-chevron-right icon-hover"></i>
     </button>
 </mat-dialog-content>
 <mat-dialog-actions class="actions">
     <mat-grid-list [cols]="images().length - 1" rowHeight="1:1" gutterSize="1rem">
         <mat-grid-tile>
-            <img class="secondary" [src]="images()[1]" (click)="show(1)">
+            <img class="secondary" [src]="images()[1]" (click)="show(1)" [attr.arial-label]="'a-second' | translate">
         </mat-grid-tile>
         <mat-grid-tile>
-            <img class="secondary" [src]="images()[2]" (click)="show(2)">
+            <img class="secondary" [src]="images()[2]" (click)="show(2)" [attr.arial-label]="'a-third' | translate">
         </mat-grid-tile>
         <mat-grid-tile>
-            <img class="secondary" [src]="images()[3]" (click)="show(3)">
+            <img class="secondary" [src]="images()[3]" (click)="show(3)" [attr.arial-label]="'a-fourth' | translate">
         </mat-grid-tile>
     </mat-grid-list>
 </mat-dialog-actions>

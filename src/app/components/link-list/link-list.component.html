@@ -1,6 +1,6 @@
 <div class="links">
     <a *ngFor="let link of links; let i = index" class="icon-link icon-hover" [href]="link.url" target="_blank"
-        rel="noopener noreferrer" data-aos="zoom-in" [attr.data-aos-delay]="2000 + i * 200">
+        rel="noopener noreferrer" data-aos="zoom-in" [attr.data-aos-delay]="2000 + i * 200" [attr.aria-label]="link.name">
         <i [class]="'fab fa-'+link.name+' icon-hover'"></i>
     </a>
 </div>

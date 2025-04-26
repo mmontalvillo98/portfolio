@@ -4,12 +4,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
     templateUrl: 'image-dialog.component.html',
     styleUrl: './image-dialog.component.scss',
     standalone: true,
-    imports: [CommonModule, MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule]
+    imports: [CommonModule, MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule, TranslateModule]
 })
 
 export class ImageDialogComponent {
@@ -21,14 +22,14 @@ export class ImageDialogComponent {
         this.dialogRef.close(this.images());
     }
 
-    moveRight() {
+    next() {
         const first = this.images().shift();
         if (first) {
             this.images().push(first);
         }
     }
 
-    moveLeft() {
+    previous() {
         const last = this.images().pop();
         if (last) {
             this.images().unshift(last);
@@ -37,7 +38,7 @@ export class ImageDialogComponent {
 
     show(index: number) {
         for (let i = 0; i < index; i++) {
-            this.moveRight();
+            this.next();
         }
     }
 
