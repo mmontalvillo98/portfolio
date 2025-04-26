@@ -10,7 +10,7 @@
     <button class="move icon-button" (click)="previous()" [attr.aria-label]="'g-previous' | translate">
         <i class="fa-solid fa-chevron-left icon-hover"></i>
     </button>
-    <img [src]="images()[0]" [attr.arial-label]="'a-first' | translate">
+    <img [src]="images()[0].url" [attr.arial-label]="images()[0].name | translate">
     <button class="move icon-button" (click)="next()" [attr.aria-label]="'g-next' | translate">
         <i class="fa-solid fa-chevron-right icon-hover"></i>
     </button>
@@ -18,13 +18,16 @@
 <mat-dialog-actions class="actions">
     <mat-grid-list [cols]="images().length - 1" rowHeight="1:1" gutterSize="1rem">
         <mat-grid-tile>
-            <img class="secondary" [src]="images()[1]" (click)="show(1)" [attr.arial-label]="'a-second' | translate">
+            <img class="secondary" [src]="images()[1].url" (click)="show(1)"
+                [attr.arial-label]="images()[1].name | translate">
         </mat-grid-tile>
         <mat-grid-tile>
-            <img class="secondary" [src]="images()[2]" (click)="show(2)" [attr.arial-label]="'a-third' | translate">
+            <img class="secondary" [src]="images()[2].url" (click)="show(2)"
+                [attr.arial-label]="images()[2].name | translate">
         </mat-grid-tile>
         <mat-grid-tile>
-            <img class="secondary" [src]="images()[3]" (click)="show(3)" [attr.arial-label]="'a-fourth' | translate">
+            <img class="secondary" [src]="images()[3].url" (click)="show(3)"
+                [attr.arial-label]="images()[3].name | translate">
         </mat-grid-tile>
     </mat-grid-list>
 </mat-dialog-actions>

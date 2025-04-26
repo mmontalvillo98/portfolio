@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SocialLink } from '../../../classes/social-link.class';
+import { Link } from '../../../classes/link.class';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -11,5 +11,5 @@ import { CommonModule } from '@angular/common';
 })
 
 export class LinkListComponent {
-    @Input() links: Array<SocialLink> = [];
+    @Input() links: Array<Link> = [];
 }

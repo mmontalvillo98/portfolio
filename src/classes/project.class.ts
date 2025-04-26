@@ -1,13 +1,13 @@
-import { SocialLink } from "./social-link.class";
+import { Link } from "./link.class";
 
 export class Project {
     name: string;
     description: string;
-    images: Array<string>;
+    images: Array<Link>;
     technologies: Array<string>;
-    links: Array<SocialLink>;
+    links: Array<Link>;
 
-    constructor(name: string, description: string, images: Array<string>, technologies: Array<string>, links: Array<SocialLink>) {
+    constructor(name: string, description: string, images: Array<Link>, technologies: Array<string>, links: Array<Link>) {
         this.name = name;
         this.description = description;
         this.images = images;

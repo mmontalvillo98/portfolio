@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { environment } from '../../../environments/environment';
-import { SocialLink } from '../../../classes/social-link.class';
+import { Link } from '../../../classes/link.class';
 import { CommonModule } from '@angular/common';
 import { LinkListComponent } from "../link-list/link-list.component";
 import { TranslateModule } from '@ngx-translate/core';
@@ -15,5 +15,5 @@ import { TranslateModule } from '@ngx-translate/core';
 
 export class FooterComponent {
     email: string = environment.user.email;
-    links: Array<SocialLink> = environment.user.socialLinks;
+    links: Array<Link> = environment.user.socialLinks;
 }

@@ -7,6 +7,7 @@ import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { Link } from '../../../classes/link.class';
 
 @Component({
     selector: 'app-project-gallery',
@@ -18,7 +19,7 @@ import { TranslateModule } from '@ngx-translate/core';
 
 export class ProjectGalleryComponent {
     isSmallScreen: boolean = true;
-    images: string[] = [];
+    images: Array<Link> = [];
     projectName: string = ''; 
 
     @Input() set project(project: Project) {

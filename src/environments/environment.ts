@@ -28,10 +28,10 @@ export const environment = {
             name: 'portfolio',
             description: 'p-s-portfolio',
             images: [
-                "/assets/media/imgs/portfolio00.png",
-                "/assets/media/imgs/portfolio01.png",
-                "/assets/media/imgs/portfolio02.png",
-                "/assets/media/imgs/portfolio03.png"
+                { name: "p-s-image00", url: "/assets/media/imgs/portfolio00.png" },
+                { name: "p-s-image01", url: "/assets/media/imgs/portfolio01.png" },
+                { name: "p-s-image02", url: "/assets/media/imgs/portfolio02.png" },
+                { name: "p-s-image03", url: "/assets/media/imgs/portfolio03.png" },
             ],
             technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Render'],
             links: [

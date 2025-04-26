@@ -1,4 +1,4 @@
-export class SocialLink {
+export class Link {
     name: string;
     url: string;
 

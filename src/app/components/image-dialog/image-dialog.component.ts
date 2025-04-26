@@ -5,6 +5,7 @@ import { MAT_DIALOG_DATA, MatDialogModule, MatDialogRef } from '@angular/materia
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslateModule } from '@ngx-translate/core';
+import { Link } from '../../../classes/link.class';
 
 @Component({
     templateUrl: 'image-dialog.component.html',
@@ -15,7 +16,7 @@ import { TranslateModule } from '@ngx-translate/core';
 
 export class ImageDialogComponent {
     readonly dialogRef = inject(MatDialogRef<ImageDialogComponent>);
-    readonly data = inject<{ title: string, images: Array<string> }>(MAT_DIALOG_DATA);
+    readonly data = inject<{ title: string, images: Array<Link> }>(MAT_DIALOG_DATA);
     readonly images = model(this.data.images);
 
     close(): void {
