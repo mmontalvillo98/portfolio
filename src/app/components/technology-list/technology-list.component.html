@@ -1,6 +1,6 @@
 <mat-chip-set aria-label="Technologies">
     <mat-chip *ngFor="let technology of technologies; let i = index" data-aos="fade-left"
-        [attr.data-aos-delay]="1000 + i * 200" data-aos-easing="ease">
+        [attr.data-aos-delay]="i * 200" data-aos-easing="ease">
         {{technology}}
     </mat-chip>
 </mat-chip-set>
