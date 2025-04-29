@@ -1,1 +1,48 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+    "name": "m.montalvillo98 Portfolio",
+    "short_name": "mm",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/assets/media/imgs/portfolio-wide-screenshot.png",
+            "sizes": "3840x2160",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/assets/media/imgs/portfolio00.png",
+            "sizes": "1000x1000",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/media/imgs/portfolio01.png",
+            "sizes": "1400x1400",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/media/imgs/portfolio02.png",
+            "sizes": "1000x1000",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/media/imgs/portfolio03.png",
+            "sizes": "1000x1000",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "theme_color": "#F5F5F5",
+    "background_color": "#2E2E2E",
+    "display": "standalone"
+}
