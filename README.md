@@ -6,10 +6,9 @@ This project is a personal portfolio built with Angular. It is designed to prese
 ---
 
 ## **Features**
-- **About Me Section**: Highlighting my professional journey and personal background.
-- **Projects Showcase**: A gallery of my personal and professional projects with descriptions and links.
 - **Experience Timeline**: A timeline view of my work experience, skills, and achievements.
-- **Contact Form**: An integrated form for easy communication.
+- **Projects Showcase**: A gallery of my personal and professional projects with descriptions and links.
+- **Contact Link**: An integrated link for easy communication.
 
 ---
 
@@ -48,15 +47,14 @@ To run this project locally:
 
 ## **Usage**
 - Explore the portfolio sections to learn more about my skills and projects.
-- Use the contact form to get in touch with me for collaborations or job opportunities.
+- Use the contact link to get in touch with me for collaborations or job opportunities.
 - Responsive design ensures compatibility with mobile, tablet, and desktop devices.
 
 ---
 
 ## **Future Enhancements**
 - Add more interactivity using animations.
-- Integrate API for dynamic content updates.
-- Include multi-language support.
+- Abaut me section
 
 ---
 
