@@ -8,7 +8,7 @@ This project is a personal portfolio built with Angular. It is designed to prese
 ## **Features**
 - **Experience Timeline**: A timeline view of my work experience, skills, and achievements.
 - **Projects Showcase**: A gallery of my personal and professional projects with descriptions and links.
-- **Contact Link**: An integrated link for easy communication.
+- **Contact Link**: A link for easy communication.
 
 ---
 
