@@ -13,11 +13,17 @@
     "e-s-getronics-experience": "Participé activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento. Aunque mi principal enfoque fue el diseño y desarrollo de sistemas con arquitectura de microservicios, implementando APIs REST con Spring Boot y desarrollando interfaces en Angular, también contribuí en otras etapas del proceso, asegurando la integración y funcionalidad completa del sistema.",
     "e-s-visit": "Ir a la página web de ",
 
-    "p-s-image00": "Captura de pantalla de la página de inicio",
-    "p-s-image01": "Captura de pantalla de la sección de experiencia",
-    "p-s-image02": "Captura de pantalla de la sección de contacto en inglés",
-    "p-s-image03": "Captura de pantalla de la sección de contacto en español",
+    "p-s-portfolio-img-00": "Captura de pantalla de la página de inicio",
+    "p-s-portfolio-img-01": "Captura de pantalla de la sección de experiencia",
+    "p-s-portfolio-img-02": "Captura de pantalla de la sección de contacto en inglés",
+    "p-s-portfolio-img-03": "Captura de pantalla de la sección de contacto en español",
     "p-s-portfolio": "Portfolio personal construido con Angular. Está diseñado para presentar mi experiencia profesional, proyectos personales y detalles de contacto de una manera moderna e interactiva. El portfolio proporciona a empleadores potenciales y colaboradores una visión general de mis habilidades y logros.",
+
+    "p-s-dayctionary-img-00": "Captura de pantalla de la página de inicio",
+    "p-s-dayctionary-img-01": "Captura de pantalla del juego de adivinar el sinónimo",
+    "p-s-dayctionary-img-02": "Captura de pantalla del juego de adivinar la definición habiendo elegido la opción correcta",
+    "p-s-dayctionary-img-03": "Captura de pantalla del email de notificación de nueva palabra y juegos disponibles",
+    "p-s-dayctionary": "Proyecto de fin de grado del Grado Superior de Desarrollo de Aplicaciones Web. Página web que plantea una palabra en inglés cada día y varios juegos destinados a ayudar a aprender su fonética, definición y sinónimos. Todo generado automáticamente.",
 
     "f-mail": "Enviar correo electrónico a ",
     "f-interested": "¿Te interesa trabajar conmigo?",

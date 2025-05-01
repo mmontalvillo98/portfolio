@@ -28,15 +28,27 @@ export const environment = {
             name: 'portfolio',
             description: 'p-s-portfolio',
             images: [
-                { name: "p-s-image00", url: "/assets/media/imgs/portfolio00.png" },
-                { name: "p-s-image01", url: "/assets/media/imgs/portfolio01.png" },
-                { name: "p-s-image02", url: "/assets/media/imgs/portfolio02.png" },
-                { name: "p-s-image03", url: "/assets/media/imgs/portfolio03.png" },
+                { name: "p-s-portfolio-img-00", url: "/assets/media/imgs/portfolio00.png" },
+                { name: "p-s-portfolio-img-01", url: "/assets/media/imgs/portfolio01.png" },
+                { name: "p-s-portfolio-img-02", url: "/assets/media/imgs/portfolio02.png" },
+                { name: "p-s-portfolio-img-03", url: "/assets/media/imgs/portfolio03.png" },
             ],
             technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Render'],
             links: [
                 { name: 'github', url: 'https://github.com/mmontalvillo98/portfolio' }
             ]
+        },
+        {
+            name: 'dayctionary',
+            description: 'p-s-dayctionary',
+            images: [
+                { name: "p-s-dayctionary-img-00", url: "/assets/media/imgs/dayctionary00.png" },
+                { name: "p-s-dayctionary-img-01", url: "/assets/media/imgs/dayctionary01.png" },
+                { name: "p-s-dayctionary-img-02", url: "/assets/media/imgs/dayctionary02.png" },
+                { name: "p-s-dayctionary-img-03", url: "/assets/media/imgs/dayctionary03.png" },
+            ],
+            technologies: ['Angular', 'Angular Material', 'AnimationsCSS', 'Compodoc', 'JWT', 'Mailo', 'MongoDB', 'Spring Boot', 'SweetAlert2', 'Thymeleaf'],
+            links: []
         }
     ]
 };

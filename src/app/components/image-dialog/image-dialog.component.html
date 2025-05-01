@@ -16,7 +16,7 @@
     </button>
 </mat-dialog-content>
 <mat-dialog-actions class="actions">
-    <mat-grid-list [cols]="secondaryImages.length" rowHeight="1:1" gutterSize="1rem">
+    <mat-grid-list [cols]="secondaryImages.length" rowHeight="2:1" gutterSize="1rem">
         <mat-grid-tile *ngFor="let image of secondaryImages; let i = index">
             <img class="secondary" [src]="image.url" (click)="show(i + 1)" [attr.arial-label]="image.name | translate">
         </mat-grid-tile>

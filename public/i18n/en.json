@@ -13,11 +13,17 @@
     "e-s-getronics-experience": "I actively participated in the entire development lifecycle, from planning to implementation and maintenance. Although my main focus was on the design and development of systems with a microservices architecture, implementing REST APIs with Spring Boot and developing interfaces in Angular, I also contributed to other stages of the process, ensuring the integration and full functionality of the system.",
     "e-s-visit": "Visite the website of ",
 
-    "p-s-image00": "Initial page screenshot",
-    "p-s-image01": "Experience section screenshot",
-    "p-s-image02": "English contact section screenshot",
-    "p-s-image03": "Spanish contact section screenshot",
+    "p-s-portfolio-img-00": "Initial page screenshot",
+    "p-s-portfolio-img-01": "Experience section screenshot",
+    "p-s-portfolio-img-02": "English contact section screenshot",
+    "p-s-portfolio-img-03": "Spanish contact section screenshot",
     "p-s-portfolio": "Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.",
+
+    "p-s-dayctionary-img-00": "Initial page screenshot",
+    "p-s-dayctionary-img-01": "Synonym guessing game screenshot",
+    "p-s-dayctionary-img-02": "Definition guessing game screenshot with the correct option chosen",
+    "p-s-dayctionary-img-03": "Email notification screenshot of new word and games available",
+    "p-s-dayctionary": "Final project of the Higher Degree in Web Application Development. A website that presents a word in English every day and several games designed to help learn its phonetics, definition, and synonyms. All generated automatically.",
 
     "f-mail": "Send email to ",
     "f-interested": "Interested in working together?",

@@ -26,6 +26,10 @@
         flex-direction: row-reverse;
     }
 
+    :host:nth-of-type(even) .project {
+        flex-direction: row;
+    }
+
     .info {
         align-self: center;
         width: 50%;
