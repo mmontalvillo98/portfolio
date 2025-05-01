@@ -5,8 +5,8 @@ export const environment = {
         email: 'm.montalvillo98@gmail.com',
         roles: ['Software Developer'],
         socialLinks: [
-            { name: 'github', url: 'https://github.com/mmontalvillo98' },
-            { name: 'linkedin', url: 'https://es.linkedin.com/in/mario-montalvillo-herrezuelo-505b6b242' }
+            { name: 'fab fa-github', url: 'https://github.com/mmontalvillo98' },
+            { name: 'fab fa-linkedin', url: 'https://es.linkedin.com/in/mario-montalvillo-herrezuelo-505b6b242' }
         ]
     },
     experience: [
@@ -33,9 +33,9 @@ export const environment = {
                 { name: "p-s-portfolio-img-02", url: "/assets/media/imgs/portfolio02.png" },
                 { name: "p-s-portfolio-img-03", url: "/assets/media/imgs/portfolio03.png" },
             ],
-            technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Render'],
+            technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Fort Awesome', 'Render'],
             links: [
-                { name: 'github', url: 'https://github.com/mmontalvillo98/portfolio' }
+                { name: 'fab fa-github', url: 'https://github.com/mmontalvillo98/portfolio' }
             ]
         },
         {
@@ -48,7 +48,9 @@ export const environment = {
                 { name: "p-s-dayctionary-img-03", url: "/assets/media/imgs/dayctionary03.png" },
             ],
             technologies: ['Angular', 'Angular Material', 'AnimationsCSS', 'Compodoc', 'JWT', 'Mailo', 'MongoDB', 'Spring Boot', 'SweetAlert2', 'Thymeleaf'],
-            links: []
+            links: [
+                { name: 'fa fa-file', url: '/assets/media/documents/dayctionary.pdf' }
+            ]
         }
     ]
 };
