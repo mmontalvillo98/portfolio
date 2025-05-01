@@ -43,4 +43,12 @@ export class ImageDialogComponent {
         }
     }
 
+    get mainImage() {
+        return this.images()[0];
+    }
+
+    get secondaryImages() {
+        return this.images().slice(1, this.images().length);
+    }
+
 }

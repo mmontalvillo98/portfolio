@@ -8,19 +8,20 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
 import { TranslateModule } from '@ngx-translate/core';
 import { Link } from '../../../classes/link.class';
+import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-project-gallery',
     templateUrl: 'project-gallery.component.html',
     styleUrl: 'project-gallery.component.scss',
     standalone: true,
-    imports: [MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule, TranslateModule]
+    imports: [CommonModule, MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule, TranslateModule]
 })
 
 export class ProjectGalleryComponent {
     isSmallScreen: boolean = true;
     images: Array<Link> = [];
-    projectName: string = ''; 
+    projectName: string = '';
 
     @Input() set project(project: Project) {
         this.projectName = project.name;
@@ -54,10 +55,18 @@ export class ProjectGalleryComponent {
         }
     }
 
+    first(index: number) {
+        return index === 0;
+    }
+
+    tileSize(index: number) {
+        return this.first(index) ? this.images.length - 1 : 1;
+    }
+
     openImage(imgIndex: number) {
         // Create duplicate of the images starting with the selected one
         let images = [];
-        for(let i = 0; i < this.images.length; i++) {
+        for (let i = 0; i < this.images.length; i++) {
             if (imgIndex > this.images.length - 1) {
                 imgIndex = 0;
             }
@@ -69,8 +78,8 @@ export class ProjectGalleryComponent {
         });
     }
 
-    get cols(): 3 | 4 {
-        return this.isSmallScreen ? 4 : 3;
+    get cols(): number {
+        return this.isSmallScreen ? this.images.length : this.images.length - 1;
     }
 
 }

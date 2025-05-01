@@ -1,20 +1,13 @@
 <mat-grid-list class="gallery" [cols]="cols" rowHeight="1:1" gutterSize="1rem">
-    <mat-grid-tile class="tile" colspan="3" rowspan="3">
-        <button class="move icon-button" (click)="previous()" [attr.aria-label]="'g-previous' | translate">
+    <mat-grid-tile *ngFor="let image of images; let i = index" class="tile" [colspan]="tileSize(i)"
+        [rowspan]="tileSize(i)">
+        <button *ngIf="first(i)" class="move icon-button" (click)="previous()"
+            [attr.aria-label]="'g-previous' | translate">
             <i class="fa-solid fa-chevron-left icon-hover"></i>
         </button>
-        <img class="image" [src]="images[0].url" (click)="openImage(0)" [attr.arial-label]="images[0].name | translate">
-        <button class="move icon-button" (click)="next()" [attr.aria-label]="'g-next' | translate">
+        <img class="image" [src]="image.url" (click)="openImage(i)" [attr.arial-label]="image.name | translate">
+        <button *ngIf="first(i)" class="move icon-button" (click)="next()" [attr.aria-label]="'g-next' | translate">
             <i class="fa-solid fa-chevron-right icon-hover"></i>
         </button>
-    </mat-grid-tile>
-    <mat-grid-tile class="tile">
-        <img class="image" [src]="images[1].url" (click)="openImage(1)" [attr.arial-label]="images[1].name | translate">
-    </mat-grid-tile>
-    <mat-grid-tile class="tile">
-        <img class="image" [src]="images[2].url" (click)="openImage(2)" [attr.arial-label]="images[2].name | translate">
-    </mat-grid-tile>
-    <mat-grid-tile class="tile">
-        <img class="image" [src]="images[3].url" (click)="openImage(3)" [attr.arial-label]="images[3].name | translate">
     </mat-grid-tile>
 </mat-grid-list>
