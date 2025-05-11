@@ -47,7 +47,7 @@ export const environment = {
                 { name: "p-s-dayctionary-img-02", url: "/assets/media/imgs/dayctionary02.png" },
                 { name: "p-s-dayctionary-img-03", url: "/assets/media/imgs/dayctionary03.png" },
             ],
-            technologies: ['Angular', 'Angular Material', 'AnimationsCSS', 'Compodoc', 'JWT', 'Mailo', 'MongoDB', 'Spring Boot', 'SweetAlert2', 'Thymeleaf'],
+            technologies: ['Angular', 'Angular Material', 'AnimationsCSS', 'JWT', 'Mailo', 'MongoDB', 'Spring Boot', 'SweetAlert2', 'Thymeleaf'],
             links: [
                 { name: 'fa fa-file', url: '/assets/media/documents/dayctionary.pdf' }
             ]
