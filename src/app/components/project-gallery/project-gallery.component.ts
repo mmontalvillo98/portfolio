@@ -1,26 +1,26 @@
-import { Component, Input } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { Project } from '../../../classes/project.class';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { BreakpointObserver, BreakpointState } from '@angular/cdk/layout';
-import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { ImageDialogComponent } from '../image-dialog/image-dialog.component';
 import { TranslateModule } from '@ngx-translate/core';
-import { Link } from '../../../classes/link.class';
 import { CommonModule } from '@angular/common';
+import PhotoSwipeLightbox from 'photoswipe/lightbox';
+import 'photoswipe/style.css';
+import { Image } from '../../../classes/image.class';
 
 @Component({
     selector: 'app-project-gallery',
     templateUrl: 'project-gallery.component.html',
     styleUrl: 'project-gallery.component.scss',
     standalone: true,
-    imports: [CommonModule, MatButtonModule, MatDialogModule, MatGridListModule, MatIconModule, TranslateModule]
+    imports: [CommonModule, MatButtonModule, MatGridListModule, MatIconModule, TranslateModule]
 })
 
-export class ProjectGalleryComponent {
+export class ProjectGalleryComponent implements OnInit, AfterViewInit {
     isSmallScreen: boolean = true;
-    images: Array<Link> = [];
+    images: Array<Image> = [];
     projectName: string = '';
 
     @Input() set project(project: Project) {
@@ -30,7 +30,6 @@ export class ProjectGalleryComponent {
 
     constructor(
         private breakpointObserver: BreakpointObserver,
-        private dialog: MatDialog
     ) { }
 
     ngOnInit(): void {
@@ -39,6 +38,16 @@ export class ProjectGalleryComponent {
             .subscribe((state: BreakpointState) => {
                 this.isSmallScreen = state.matches;
             });
+    }
+
+    ngAfterViewInit(): void {
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: `#${this.projectName}`,
+            children: 'a', // Elements within gallery (slides)
+            pswpModule: () => import('photoswipe') // setup PhotoSwipe Core dynamic import
+
+        });
+        lightbox.init();
     }
 
     next() {
@@ -61,21 +70,6 @@ export class ProjectGalleryComponent {
 
     tileSize(index: number) {
         return this.first(index) ? this.images.length - 1 : 1;
-    }
-
-    openImage(imgIndex: number) {
-        // Create duplicate of the images starting with the selected one
-        let images = [];
-        for (let i = 0; i < this.images.length; i++) {
-            if (imgIndex > this.images.length - 1) {
-                imgIndex = 0;
-            }
-            images.push(this.images[imgIndex++]);
-        }
-        // Open the dialog with the images
-        this.dialog.open(ImageDialogComponent, {
-            data: { title: this.projectName, images },
-        });
     }
 
     get cols(): number {

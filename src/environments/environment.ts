@@ -28,10 +28,10 @@ export const environment = {
             name: 'portfolio',
             description: 'p-s-portfolio',
             images: [
-                { name: "p-s-portfolio-img-00", url: "/assets/media/imgs/portfolio00.png" },
-                { name: "p-s-portfolio-img-01", url: "/assets/media/imgs/portfolio01.png" },
-                { name: "p-s-portfolio-img-02", url: "/assets/media/imgs/portfolio02.png" },
-                { name: "p-s-portfolio-img-03", url: "/assets/media/imgs/portfolio03.png" },
+                { name: "p-s-portfolio-img-00", url: "/assets/media/imgs/portfolio00.png", height: 1000, width: 1000 },
+                { name: "p-s-portfolio-img-01", url: "/assets/media/imgs/portfolio01.png", height: 1000, width: 1000 },
+                { name: "p-s-portfolio-img-02", url: "/assets/media/imgs/portfolio02.png", height: 1000, width: 1000 },
+                { name: "p-s-portfolio-img-03", url: "/assets/media/imgs/portfolio03.png", height: 1000, width: 1000 },
             ],
             technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Fort Awesome', 'Render'],
             links: [
@@ -42,10 +42,10 @@ export const environment = {
             name: 'dayctionary',
             description: 'p-s-dayctionary',
             images: [
-                { name: "p-s-dayctionary-img-00", url: "/assets/media/imgs/dayctionary00.png" },
-                { name: "p-s-dayctionary-img-01", url: "/assets/media/imgs/dayctionary01.png" },
-                { name: "p-s-dayctionary-img-02", url: "/assets/media/imgs/dayctionary02.png" },
-                { name: "p-s-dayctionary-img-03", url: "/assets/media/imgs/dayctionary03.png" },
+                { name: "p-s-dayctionary-img-00", url: "/assets/media/imgs/dayctionary00.png", height: 633, width: 1377 },
+                { name: "p-s-dayctionary-img-01", url: "/assets/media/imgs/dayctionary01.png", height: 628, width: 1366 },
+                { name: "p-s-dayctionary-img-02", url: "/assets/media/imgs/dayctionary02.png", height: 628, width: 1366 },
+                { name: "p-s-dayctionary-img-03", url: "/assets/media/imgs/dayctionary03.png", height: 533, width: 1035 },
             ],
             technologies: ['Angular', 'Angular Material', 'AnimationsCSS', 'JWT', 'Mailo', 'MongoDB', 'Spring Boot', 'SweetAlert2', 'Thymeleaf'],
             links: [

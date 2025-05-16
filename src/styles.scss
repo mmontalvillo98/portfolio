@@ -69,17 +69,3 @@ ul {
     color: var(--secondary-color);
     font-size: var(--medium-size);
 }
-
-.move {
-    z-index: 1;
-    position: absolute;
-    opacity: 0.25;
-    // 3 rem = size of button
-    top: calc(50% - 3rem / 2);
-    left: 0;
-
-    &:last-child {
-        left: auto;
-        right: 0;
-    }
-}
