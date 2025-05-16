@@ -33,7 +33,7 @@ export const environment = {
                 { name: "p-s-portfolio-img-02", url: "/assets/media/imgs/portfolio02.png", height: 1000, width: 1000 },
                 { name: "p-s-portfolio-img-03", url: "/assets/media/imgs/portfolio03.png", height: 1000, width: 1000 },
             ],
-            technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Fort Awesome', 'Render'],
+            technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Fort Awesome', 'PhotoSwipe', 'Render'],
             links: [
                 { name: 'fab fa-github', url: 'https://github.com/mmontalvillo98/portfolio' }
             ]
