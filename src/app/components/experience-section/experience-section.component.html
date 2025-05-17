@@ -1,0 +1,24 @@
+<section id="experience" class="section">
+    <header class="section-title" data-aos="fade-up">{{'experience' | translate}}</header>
+    <div class="timeline" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
+        <ul>
+            @for(item of experience; track $index) {
+            <li class="date">
+                <div data-aos="fade-left" data-aos-easing="ease" data-aos-delay="400">
+                    {{item.endDate | date: "dd MMM yyyy"}}
+                </div>
+            </li>
+            <li class="card">
+                <div data-aos="fade-left" data-aos-easing="ease" data-aos-delay="800">
+                    <app-experience-card [experience]="item" />
+                </div>
+            </li>
+            <li *ngIf="separatedExperience($index)" class="date">
+                <div data-aos="fade-left" data-aos-easing="ease" data-aos-delay="400">
+                    {{item.startDate | date: "dd MMM yyyy"}}
+                </div>
+            </li>
+            }
+        </ul>
+    </div>
+</section>

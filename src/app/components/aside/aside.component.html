@@ -1,0 +1,22 @@
+<aside class="aside">
+    <div class="gear">
+        <button class="icon-button" [matMenuTriggerFor]="menu" data-aos="zoom-in" data-aos-delay="2000"
+            [attr.aria-label]="'a-menu' | translate">
+            <i class="fa-solid fa-gear icon-hover"></i>
+        </button>
+    </div>
+    <div class="return">
+        <a href="#" class="icon-button" [attr.aria-label]="'a-return' | translate">
+            <i class="fa-solid fa-arrow-up icon-hover"></i>
+        </a>
+    </div>
+</aside>
+
+<mat-menu #menu="matMenu" xPosition="before" yPosition="above">
+    <button mat-menu-item [matMenuTriggerFor]="menuLanguages">{{ 'a-m-language' | translate }}</button>
+</mat-menu>
+<mat-menu #menuLanguages="matMenu" xPosition="before">
+    <button *ngFor="let language of languages" mat-menu-item (click)="onLanguageSelected(language)">
+        {{language | translate}}
+    </button>
+</mat-menu>

@@ -1,0 +1,56 @@
+.timeline {
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+
+    &:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        left: calc(var(--timeline-side-padding) / 2);
+        width: var(--border-width);
+        background:  var(--secondary-color);
+        z-index: 1;
+    }
+
+    ul {
+        padding: 0 var(--timeline-side-padding);
+    }
+
+    li {
+        position: relative;
+        z-index: 2;
+
+        &>* {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .date:last-child>div {
+        margin-bottom: 0;
+    }
+
+    .date>div {
+        font-size: var(--medium-size);
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: calc(var(--timeline-side-padding) / 4);
+            height: calc(var(--timeline-side-padding) / 4);
+            background: var(--main-color);
+            border-radius: 50%;
+            box-shadow: 0 0 0 var(--border-width) var(--secondary-color);
+            left: -1.5rem;
+            // 5px = half the height
+            top: calc((var(--medium-size) - 5px) / 2);
+            z-index: 2;
+        }
+    }
+
+    .card>div {
+        margin-left: 1rem;
+        max-width: calc(var(--card-max-size) - (var(--timeline-side-padding) * 2));
+    }    
+
+}

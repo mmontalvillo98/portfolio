@@ -1,0 +1,33 @@
+.aside {
+    width: 4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+.return {
+    position: relative;
+    top: 100vh;
+    height: calc(100% - 100vh);
+    mask-image: linear-gradient(transparent 0%, black 50vh);
+    
+    a {
+        z-index: 2;
+        position: fixed;
+        right: 0.5rem;
+        bottom: 2rem;
+    }
+
+}
+
+.gear {
+    position: relative;
+
+    button {
+        z-index: 2;
+        position: fixed;
+        right: 0.25rem;
+        top: 2rem;
+    }
+}

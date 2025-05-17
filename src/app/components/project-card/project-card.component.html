@@ -1,0 +1,15 @@
+<div class="project">
+    <div class="screenshots" data-aos="flip-down" data-aos-delay="400">
+        <app-project-gallery [project]="project" />
+    </div>
+    <div class="info">
+        <header class="card-title">{{project.name | uppercase}}</header>
+        <main>
+            <div class="description">{{project.description | translate}}</div>
+            <app-technology-list [technologies]="project.technologies" />
+        </main>
+        <footer>
+            <app-link-list [links]="project.links" />
+        </footer>
+    </div>
+</div>

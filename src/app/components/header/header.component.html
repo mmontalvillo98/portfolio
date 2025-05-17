@@ -1,0 +1,39 @@
+<header class="section">
+    <div>
+        <nav class="header-row">
+            <div class="name" data-aos="fade-left" data-aos-delay="400">{{name | uppercase}}</div>
+            <ul class="links">
+                <li data-aos="fade-down" data-aos-delay="1200">
+                    <a href="#contact" class="underline" [attr.aria-label]="'h-contact' | translate">
+                        {{'contact' | translate}}
+                    </a>
+                </li>
+                <li data-aos="fade-down" data-aos-delay="1300">
+                    <a href="#projects" class="underline" [attr.aria-label]="'h-projects' | translate">
+                        {{'projects' | translate}}
+                    </a>
+                </li>
+                <li data-aos="fade-down" data-aos-delay="1400">
+                    <a href="#experience" class="underline" [attr.aria-label]="'h-experience' | translate">
+                        {{'experience' | translate}}
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-row">
+            <div class="role">
+                @for (role of roles; track $index) {
+                <span *ngFor="let word of role.split(' '); let i = index" class="line" data-aos="fade-up"
+                    [attr.data-aos-delay]="800 + i * 100">
+                    {{word | uppercase}}
+                </span>
+                }
+            </div>
+            <div class="last-name" data-aos="fade-right" data-aos-delay="400">{{firstName | uppercase}}</div>
+            <span class="scroll" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1900" data-aos-offset="100">
+                <div class="arrow-head" (click)="scrollToFragment('experience')"
+                    [attr.aria-label]="'h-experience' | translate"></div>
+            </span>
+        </div>
+    </div>
+</header>

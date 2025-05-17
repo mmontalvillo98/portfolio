@@ -1,0 +1,26 @@
+{
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chrome carga sin seguridad",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:4200/",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true,
+            "runtimeArgs": [
+                "--allow-file-access-from-files --user-data-dir --allow-running-insecure-content --ignore-certificate-errors",
+                "-incognito",
+                "--disable-web-security"
+            ]
+        },
+        {
+            "name": "ng test",
+            "type": "chrome",
+            "request": "launch",
+            "preLaunchTask": "npm: test",
+            "url": "http://localhost:9876/debug.html"
+        }
+    ]
+}
