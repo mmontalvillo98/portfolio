@@ -1,4 +1,4 @@
-# **Portfolio - Showcase Your Skills**
+# **Mario Montalvillo Portfolio**
 
 ## **Description**
 This project is a personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.
@@ -16,7 +16,7 @@ This project is a personal portfolio built with Angular. It is designed to prese
 - **Frontend Framework**: Angular (v19.2.2)
 - **Styling**: SCSS for dynamic and responsive design.
 - **Node.js**: Version 20.19.0 for backend support.
-- **Other Tools**: npm, Angular CLI, and Git.
+- **Other Tools**: npm, Angular CLI, Git, Angular Materia, Animate On Scroll Library, Fort Awesome, Photo Swipe and Render.
 
 ---
 
