@@ -10,14 +10,15 @@
     "a-m-language": "Idioma",
     "a-return": "Volver",
 
-    "e-s-getronics-experience": "Participé activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento. Aunque mi principal enfoque fue el diseño y desarrollo de sistemas con arquitectura de microservicios, implementando APIs REST con Spring Boot y desarrollando interfaces en Angular, también contribuí en otras etapas del proceso, asegurando la integración y funcionalidad completa del sistema.",
+    "e-s-getronics-experience": "Participo activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento, aunque mi tarea principal es el diseño y desarrollo de nuevas funcionalidades y la modificación y el perfeccionamiento de otras existentes. Trabajo tanto en el backend, implementando nuevos servicios en APIs Rest desarrolladas con Spring Boot dentro de una arquitectura de microservicios, como en el frontend, creando interfaces intuitivas a través de Angular que se sirvan de estas APis.",
+    "e-s-getronics-role": "Desarrollador de aplicaciones",
     "e-s-visit": "Ir a la página web de ",
 
     "p-s-portfolio-img-00": "Captura de pantalla de la página de inicio",
     "p-s-portfolio-img-01": "Captura de pantalla de la sección de experiencia",
     "p-s-portfolio-img-02": "Captura de pantalla de la sección de contacto en inglés",
     "p-s-portfolio-img-03": "Captura de pantalla de la sección de contacto en español",
-    "p-s-portfolio": "Portfolio personal construido con Angular. Está diseñado para presentar mi experiencia profesional, proyectos personales y detalles de contacto de una manera moderna e interactiva. El portfolio proporciona a empleadores potenciales y colaboradores una visión general de mis habilidades y logros.",
+    "p-s-portfolio": "Portfolio personal desarrollado con Angular pensado para presentar mi experiencia profesional, proyectos personales y detalles de contacto de una manera moderna e interactiva.",
 
     "p-s-dayctionary-img-00": "Captura de pantalla de la página de inicio",
     "p-s-dayctionary-img-01": "Captura de pantalla del juego de adivinar el sinónimo",

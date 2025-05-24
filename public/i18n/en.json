@@ -10,15 +10,16 @@
     "a-m-language": "Language",
     "a-return": "Return",
 
-    "e-s-getronics-experience": "I actively participated in the entire development lifecycle, from planning to implementation and maintenance. Although my main focus was on the design and development of systems with a microservices architecture, implementing REST APIs with Spring Boot and developing interfaces in Angular, I also contributed to other stages of the process, ensuring the integration and full functionality of the system.",
+    "e-s-getronics-experience": "I actively participate in the entire development lifecycle, from planning to implementation and maintenance, although my main task is the design and development of new features, as well as the modification and improvement of existing ones. I work both on the backend, implementing new services in REST APIs developed with Spring Boot within a microservices architecture, and on the frontend, creating intuitive interfaces through Angular that uses these APIs.",
+    "e-s-getronics-role": "Application developer",
     "e-s-visit": "Visite the website of ",
 
     "p-s-portfolio-img-00": "Initial page screenshot",
     "p-s-portfolio-img-01": "Experience section screenshot",
     "p-s-portfolio-img-02": "English contact section screenshot",
     "p-s-portfolio-img-03": "Spanish contact section screenshot",
-    "p-s-portfolio": "Personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.",
-
+    "p-s-portfolio": "Personal portfolio developed with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.",
+    
     "p-s-dayctionary-img-00": "Initial page screenshot",
     "p-s-dayctionary-img-01": "Synonym guessing game screenshot",
     "p-s-dayctionary-img-02": "Definition guessing game screenshot with the correct option chosen",

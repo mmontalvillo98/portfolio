@@ -16,9 +16,9 @@ export const environment = {
                 logo: '/assets/media/imgs/getronics.jpeg',
                 url: 'https://www.getronics.com'
             },
-            position: 'Full Stack Developer',
+            position: 'e-s-getronics-role',
             description: 'e-s-getronics-experience',
-            startDate: new Date("2022-03-19"),
+            startDate: new Date("2023-03-19"),
             endDate: new Date(),
             technologies: ['Angular', 'Angular Material', 'Jasper Report', 'Java Microservicios', 'Maven', 'OpenAPI', 'OpenAPI Generator', 'Oracle SQL', 'Spring Batch', 'Spring Boot', 'Swagger']
         }
@@ -33,7 +33,7 @@ export const environment = {
                 { name: "p-s-portfolio-img-02", url: "/assets/media/imgs/portfolio02.png", height: 1000, width: 1000 },
                 { name: "p-s-portfolio-img-03", url: "/assets/media/imgs/portfolio03.png", height: 1000, width: 1000 },
             ],
-            technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Fort Awesome', 'PhotoSwipe', 'Render'],
+            technologies: ['Angular', 'Angular Material', 'Animate On Scroll Library (AOS)', 'Fort Awesome', 'ngx-translate', 'PhotoSwipe', 'Render'],
             links: [
                 { name: 'fab fa-github', url: 'https://github.com/mmontalvillo98/portfolio' }
             ]
