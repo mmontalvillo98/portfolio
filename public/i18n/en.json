@@ -22,14 +22,14 @@
     },
     "project": {
         "portfolio": {
-            "description": "Personal portfolio developed with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.",
+            "description": "Personal portfolio built with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.",
             "img-00": "Initial page screenshot",
             "img-01": "Experience section screenshot",
             "img-02": "English contact section screenshot",
             "img-03": "Spanish contact section screenshot"
         },
         "dayctionary": {
-            "description": "Final project of the Higher Degree in Web Application Development. A website that presents a word in English every day and several games designed to help learn its phonetics, definition, and synonyms. All generated automatically.",
+            "description": "Final project of the Higher Degree in Web Application Development. A website that presents a word in English every day and several games designed to help learn its phonetics, definition, and synonyms. All automatically generated.",
             "img-00": "Initial page screenshot",
             "img-01": "Synonym guessing game screenshot",
             "img-02": "Definition guessing game screenshot with the correct option chosen",

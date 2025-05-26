@@ -1,7 +1,7 @@
 # **Mario Montalvillo Portfolio**
 
 ## **Description**
-Personal portfolio developed with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.
+Personal portfolio built with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.
 
 ---
 
