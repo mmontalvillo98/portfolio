@@ -1,41 +1,53 @@
 {
-    "en": "English",
-    "es": "Spanish",
-
-    "contact": "CONTACT",
-    "projects": "PROJECTS",
-    "experience": "EXPERIENCE",
-
-    "a-menu": "Configuration",
-    "a-m-language": "Language",
-    "a-return": "Return",
-
-    "e-s-getronics-experience": "I actively participate in the entire development lifecycle, from planning to implementation and maintenance, although my main task is the design and development of new features, as well as the modification and improvement of existing ones. I work both on the backend, implementing new services in REST APIs developed with Spring Boot within a microservices architecture, and on the frontend, creating intuitive interfaces through Angular that uses these APIs.",
-    "e-s-getronics-role": "Application developer",
-    "e-s-visit": "Visite the website of ",
-
-    "p-s-portfolio-img-00": "Initial page screenshot",
-    "p-s-portfolio-img-01": "Experience section screenshot",
-    "p-s-portfolio-img-02": "English contact section screenshot",
-    "p-s-portfolio-img-03": "Spanish contact section screenshot",
-    "p-s-portfolio": "Personal portfolio developed with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.",
-    
-    "p-s-dayctionary-img-00": "Initial page screenshot",
-    "p-s-dayctionary-img-01": "Synonym guessing game screenshot",
-    "p-s-dayctionary-img-02": "Definition guessing game screenshot with the correct option chosen",
-    "p-s-dayctionary-img-03": "Email notification screenshot of new word and games available",
-    "p-s-dayctionary": "Final project of the Higher Degree in Web Application Development. A website that presents a word in English every day and several games designed to help learn its phonetics, definition, and synonyms. All generated automatically.",
-
-    "f-mail": "Send email to ",
-    "f-interested": "Interested in working together?",
-    "f-send-email": "Send me an email",
-
-    "g-next": "Next screenshot",
-    "g-previous": "Previous screenshot",
-
-    "h-contact": "Go to contact",
-    "h-projects": "Go to projects",
-    "h-experience": "Go to experience",
-
-    "i-d-close": "Close"
+    "language": {
+        "en": "English",
+        "es": "Spanish"
+    },
+    "section": {
+        "contact": "CONTACT",
+        "projects": "PROJECTS",
+        "experience": "EXPERIENCE"
+    },
+    "aside": {
+        "configuration": "Configuration",
+        "language": "Language",
+        "return": "Return"
+    },
+    "experience": {
+        "visit": "Visit ",
+        "getronics": {
+            "description": "I actively participate in the entire development lifecycle, from planning to implementation and maintenance, although my main task is the design and development of new features, as well as the modification and improvement of existing ones. I work both on the backend, implementing new services in REST APIs developed with Spring Boot within a microservices architecture, and on the frontend, creating intuitive interfaces through Angular that uses these APIs.",
+            "role": "Application developer"
+        }
+    },
+    "project": {
+        "portfolio": {
+            "description": "Personal portfolio developed with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.",
+            "img-00": "Initial page screenshot",
+            "img-01": "Experience section screenshot",
+            "img-02": "English contact section screenshot",
+            "img-03": "Spanish contact section screenshot"
+        },
+        "dayctionary": {
+            "description": "Final project of the Higher Degree in Web Application Development. A website that presents a word in English every day and several games designed to help learn its phonetics, definition, and synonyms. All generated automatically.",
+            "img-00": "Initial page screenshot",
+            "img-01": "Synonym guessing game screenshot",
+            "img-02": "Definition guessing game screenshot with the correct option chosen",
+            "img-03": "Email notification screenshot of new word and games available"
+        }
+    },
+    "contact": {
+        "mail": "Send email to ",
+        "interested": "Interested in working together?",
+        "send-email": "Send me an email"
+    },
+    "header": {
+        "contact": "Go to contact",
+        "projects": "Go to projects",
+        "experience": "Go to experience"
+    },
+    "gallery": {
+        "next": "Next",
+        "previous": "Previous"
+    }
 }
