@@ -16,7 +16,7 @@
     "experience": {
         "visit": "Visitar ",
         "getronics": {
-            "description": "Participo activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento, aunque mi tarea principal es el diseño y desarrollo de nuevas funcionalidades y la modificación y el perfeccionamiento de otras existentes. Trabajo tanto en el backend, implementando nuevos servicios en APIs Rest desarrolladas con Spring Boot dentro de una arquitectura de microservicios, como en el frontend, creando interfaces intuitivas a través de Angular que se sirvan de estas APis.",
+            "description": "Participo activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento, aunque mi tarea principal es el diseño y desarrollo de nuevas funcionalidades y la modificación y el perfeccionamiento de otras existentes. Trabajo tanto en el backend, implementando nuevos servicios en APIs Rest desarrolladas con Spring Boot dentro de una arquitectura de microservicios, como en el frontend, creando interfaces intuitivas a través de Angular que se sirvan de estas APIs.",
             "role": "Desarrollador de aplicaciones"
         }
     },
