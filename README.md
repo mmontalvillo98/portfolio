@@ -1,13 +1,13 @@
 # **Mario Montalvillo Portfolio**
 
 ## **Description**
-This project is a personal portfolio built with Angular. It is designed to present my professional experience, personal projects, and contact details in a modern and interactive way. The portfolio provides potential employers and collaborators with an overview of my skills and accomplishments.
+Personal portfolio built with Angular, designed to showcase my professional experience, personal projects, and contact details in a modern and interactive way.
 
 ---
 
 ## **Features**
 - **Experience Timeline**: A timeline view of my work experience, skills, and achievements.
-- **Projects Showcase**: A gallery of my personal and professional projects with descriptions and links.
+- **Projects Showcase**: A gallery of my personal and professional projects with descriptions, screenshots and links to additional details.
 - **Contact Link**: A link for easy communication.
 
 ---
@@ -16,7 +16,7 @@ This project is a personal portfolio built with Angular. It is designed to prese
 - **Frontend Framework**: Angular (v19.2.2)
 - **Styling**: SCSS for dynamic and responsive design.
 - **Node.js**: Version 20.19.0 for backend support.
-- **Other Tools**: npm, Angular CLI, Git, Angular Materia, Animate On Scroll Library, Fort Awesome, Photo Swipe and Render.
+- **Other Tools**: npm, Angular CLI, Git, Angular Materia, Animate On Scroll Library (AOS), Fort Awesome, ngx-translate, Photo Swipe and Render.
 
 ---
 
@@ -47,14 +47,14 @@ To run this project locally:
 
 ## **Usage**
 - Explore the portfolio sections to learn more about my skills and projects.
-- Use the contact link to get in touch with me for collaborations or job opportunities.
+- Use the contact link to get in touch with me for collaborations, job opportunities or any inquiries.
 - Responsive design ensures compatibility with mobile, tablet, and desktop devices.
 
 ---
 
 ## **Future Enhancements**
 - Add more interactivity using animations.
-- Abaut me section
+- About me section
 
 ---
 

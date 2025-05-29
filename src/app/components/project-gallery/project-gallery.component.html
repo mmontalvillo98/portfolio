@@ -2,7 +2,7 @@
     <mat-grid-list class="gallery" [cols]="cols" rowHeight="1:1" gutterSize="1rem">
         <mat-grid-tile *ngFor="let image of images; let i = index" class="tile" [colspan]="tileSize(i)"
             [rowspan]="tileSize(i)">
-            <button *ngIf="first(i)" class="move icon-button" (click)="next()" [attr.aria-label]="'g-next' | translate">
+            <button *ngIf="first(i)" class="move icon-button" (click)="next()" [attr.aria-label]="'gallery.next' | translate">
                 <i class="fa-solid fa-chevron-left icon-hover"></i>
             </button>
             <a class="image-link" [href]="image.url" target="_blank" [attr.data-pswp-width]="image.width"
@@ -10,7 +10,7 @@
                 <img class="image" [src]="image.url" [alt]="image.name | translate" />
             </a>
             <button *ngIf="first(i)" class="move icon-button" (click)="previous()"
-                [attr.aria-label]="'g-previous' | translate">
+                [attr.aria-label]="'gallery.previous' | translate">
                 <i class="fa-solid fa-chevron-right icon-hover"></i>
             </button>
         </mat-grid-tile>
