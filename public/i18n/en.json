@@ -14,7 +14,7 @@
         "return": "Return"
     },
     "experience": {
-        "visit": "Visit ",
+        "visit": "Visit {{ company }} website",
         "getronics": {
             "description": "I actively participate in the entire development lifecycle, from planning to implementation and maintenance, although my main task is the design and development of new features, as well as the modification and improvement of existing ones. I work both on the backend, implementing new services in REST APIs developed with Spring Boot within a microservices architecture, and on the frontend, creating intuitive interfaces through Angular that uses these APIs.",
             "role": "Application developer"
@@ -37,7 +37,7 @@
         }
     },
     "contact": {
-        "mail": "Send email to ",
+        "mail": "Send email to {{ email }}",
         "interested": "Interested in working together?",
         "send-email": "Send me an email"
     },

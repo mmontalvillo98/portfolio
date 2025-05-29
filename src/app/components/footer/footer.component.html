@@ -5,7 +5,7 @@
         <div data-aos="fade-up" data-aos-delay="400">{{'contact.send-email' | translate}}</div>
     </div>
     <a class="contact-link underline" data-aos="fade-up" data-aos-delay="600" [href]="'mailto:' + email"
-        [attr.aria-label]="('contact.mail' | translate) + email">
+        [attr.aria-label]="('contact.mail' | translate: { email })">
         {{email}}
     </a>
     <app-link-list [links]="links" />
