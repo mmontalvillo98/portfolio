@@ -15,8 +15,12 @@
     },
     "experience": {
         "visit": "Visitar la página web de {{ company }}",
+        "ayesa": {
+            "description": "Me encargo de comprender y depurar los requisitos, evaluar alternativas técnicas y definir la solución más adecuada. Esto implica entender las necesidades del negocio, planificar la mejor manera de implementar las funcionalidades y colaborar en su desarrollo, garantizando soluciones coherentes con los objetivos del proyecto y de fácil mantenimiento. Además, participo en la revisión y optimización de procesos, buscando constantemente formas de mejorar la eficiencia, la calidad del código y la experiencia del usuario.",
+            "role": "Analista programador"
+        },
         "getronics": {
-            "description": "Participo activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento, aunque mi tarea principal es el diseño y desarrollo de nuevas funcionalidades y la modificación y el perfeccionamiento de otras existentes. Trabajo tanto en el backend, implementando nuevos servicios en APIs Rest desarrolladas con Spring Boot dentro de una arquitectura de microservicios, como en el frontend, creando interfaces intuitivas a través de Angular que se sirvan de estas APIs.",
+            "description": "Participé activamente en todo el ciclo de vida del desarrollo, desde la planificación hasta la implementación y el mantenimiento, aunque mi tarea principal era el diseño y desarrollo de nuevas funcionalidades y la modificación y el perfeccionamiento de otras existentes. Trabajé tanto en el backend, implementando nuevos servicios en APIs Rest desarrolladas con Spring Boot dentro de una arquitectura de microservicios, como en el frontend, creando interfaces intuitivas a través de Angular que se sirvían de estas APIs.",
             "role": "Desarrollador de aplicaciones"
         }
     },

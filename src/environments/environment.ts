@@ -12,6 +12,18 @@ export const environment = {
     experience: [
         {
             company: {
+                name: 'ayesa',
+                logo: '/assets/media/imgs/ayesa.png',
+                url: 'https://www.ayesa.com'
+            },
+            position: 'experience.ayesa.role',
+            description: 'experience.ayesa.description',
+            startDate: new Date("2025-07-07"),
+            endDate: new Date(),
+            technologies: ['Angular', 'Angular Material', 'Jasper Report', 'Java Microservicios', 'Maven', 'OpenAPI', 'OpenAPI Generator', 'Oracle SQL', 'Spring Batch', 'Spring Boot', 'Swagger']
+        },
+        {
+            company: {
                 name: 'getronics',
                 logo: '/assets/media/imgs/getronics.jpeg',
                 url: 'https://www.getronics.com'
@@ -19,7 +31,7 @@ export const environment = {
             position: 'experience.getronics.role',
             description: 'experience.getronics.description',
             startDate: new Date("2023-03-19"),
-            endDate: new Date(),
+            endDate: new Date("2025-07-07"),
             technologies: ['Angular', 'Angular Material', 'Jasper Report', 'Java Microservicios', 'Maven', 'OpenAPI', 'OpenAPI Generator', 'Oracle SQL', 'Spring Batch', 'Spring Boot', 'Swagger']
         }
     ],
