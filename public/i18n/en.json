@@ -15,8 +15,12 @@
     },
     "experience": {
         "visit": "Visit {{ company }} website",
+        "ayesa": {
+            "description": "I am responsible for understanding and refining requirements, evaluating technical alternatives, and defining the most suitable solution. This involves grasping business needs, planning the best way to implement features, and collaborating in their development, ensuring solutions are aligned with project goals and easy to maintain. Additionally, I participate in reviewing and optimizing processes, constantly seeking ways to improve efficiency, code quality, and the user experience.",
+            "role": "Programmer analyst"
+        },
         "getronics": {
-            "description": "I actively participate in the entire development lifecycle, from planning to implementation and maintenance, although my main task is the design and development of new features, as well as the modification and improvement of existing ones. I work both on the backend, implementing new services in REST APIs developed with Spring Boot within a microservices architecture, and on the frontend, creating intuitive interfaces through Angular that uses these APIs.",
+            "description": "I actively participated in the entire development lifecycle, from planning to implementation and maintenance, although my main task was the design and development of new features, as well as the modification and improvement of existing ones. I worked both on the backend, implementing new services in REST APIs developed with Spring Boot within a microservices architecture, and on the frontend, creating intuitive interfaces through Angular that consumed these APIs.",
             "role": "Application developer"
         }
     },
